@@ -1,0 +1,9 @@
+com\jhy\wxxd\service\QueryStoreCmmdtyServiceImpl.class
+com\jhy\wxxd\daoImpl\MyBatisUtilsImpl.class
+com\jhy\wxxd\daoImpl\demo.class
+com\jhy\wxxd\daoImpl\CmmdtyInfoDaoImpl.class
+com\jhy\wxxd\annotationImpl\Column.class
+com\jhy\wxxd\service\QueryOrderInfoByStoreManagerIdServiceImpl.class
+com\jhy\wxxd\daoImpl\CommonDaoServiceImpl.class
+com\jhy\wxxd\service\QueryCmmdtyInfoServiceImpl.class
+com\jhy\wxxd\service\QueryOrderInfoByCustomerIdServiceImpl.class

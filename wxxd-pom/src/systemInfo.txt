@@ -1,0 +1,99 @@
+Spring5 是一个重要的版本，距离SpringFramework4差不多四年。在此期间，大多数增强都是在 SpringBoot 项目中完成的。在本文中，我们将很快了解到Spring5发行版中的一些令人兴奋的特性。
+
+1. 基准升级
+
+要构建和运行 Spring5 应用程序，你至少需要 J2EE7 和 JDK8。以前的 JDK 和 JavaEE 版本不再支持。 JavaEE7 包含：
+
+Servlet 3.1
+
+JMS 2.0
+
+JPA 2.1
+
+JAX-RS 2.0
+
+Bean Validation 1.1
+
+与 Java 基准类似，许多其他框架的基准也有变化。例如：
+
+Hibernate 5
+
+Jackson 2.6
+
+EhCache 2.10
+
+JUnit 5
+
+Tiles 3
+
+另外，请记下各种服务器最低支持版本。
+
+Tomcat 8.5+
+
+Jetty 9.4+
+
+WildFly 10+
+
+Netty 4.1+
+
+Undertow 1.4+
+
+2. 兼容 JDK9 运行时
+
+Spring5 发行版与 JDK9 发行日期非常接近。目标是让 Spring Framework5 在 JDK9 的 GA 之后正确运行。 Spring5 版本的候选版本已经在 classpath 和 modulepath 上支持 Java9 了。
+
+GA版本中你可以期待良好的 JDK9 支持。
+
+3. 使用 JDK8 特性
+
+获取免费Spring 5 新特性视频详解可以群：554355695
+
+在 Spring4.3 之前，JDK基准版本是6。所以 Spring4 必须支持 Java6,7 和8，为了保持向后兼容性， Spring 框架没有适应 Java8 带来的许多新特性，比如 lambda 表达式。
+
+Spring5 的基准版本为8，因此它使用了 Java8 和9的许多新特性。例如：
+
+Spring 接口中的默认方法
+
+基于 Java8 反射增强的内部代码改进
+
+在框架代码中使用函数式编程 - lambda表达式 和 stream流
+
+4. 响应式编程支持
+
+响应式编程是 SpringFramework5.0 最重要的特性之一。响应式编程提供了另一种编程风格，专注于构建对事件做出响应的应用程序。 SpringFramework5 包含响应流（定义响应性API的语言中立尝试）和 Reactor（由Spring Pivotal团队提供的 Reactive Stream 的Java实现）， 以用于其自身的用途以及其许多核心API。
+
+Spring Web Reactive 在 spring-webmvc 模块中现有的（而且很流行）Spring Web MVC旁边的新的 spring-web-reactive 模块中。 请注意，在 Spring5 中，传统的 SpringMVC 支持 Servlet3.1 上运行，或者支持 JavaEE7 的服务器。
+
+5. 函数式web框架
+
+除了响应式功能之外，Spring5 还提供了一个函数式Web框架。它提供了使用函数式编程风格来定义端点的特性。 该框架引入了两个基本组件：HandlerFunction 和 RouterFunction。
+
+HandlerFunction 表示处理接收到的请求并生成响应的函数。 RouterFunction 替代了 @RequestMapping 注解。它用于将接收到的请求路由到处理函数。例如：
+
+RouterFunction<String> route =
+
+route(GET("/hello-world"),
+
+request -> Response.ok().body(fromObject("Hello World")));
+
+6. Kotlin支持
+
+Kotlin 是一种静态类型的JVM语言，它让代码具有表现力，简洁性和可读性。 Spring5.0 对 Kotlin 有很好的支持。
+
+7. 移除的特性
+
+随着 Java、JavaEE 和其他一些框架基准版本的增加，SpringFramework5 取消了对几个框架的支持。例如:
+
+Portlet
+
+Velocity
+
+JasperReports
+
+XMLBeans
+
+JDO
+
+Guava
+
+获取免费Spring 5 新特性视频详解可以群：554355695

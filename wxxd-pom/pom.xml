@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<groupId>com.jhy.wxxd</groupId>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>wxxd-pom</artifactId>
+	<version>${project-version}</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<!-- 项目版本 -->
+		<project-version>1.0.0</project-version>
+		<!-- Spring版本 -->
+		<spring.version>5.1.2.RELEASE </spring.version>
+		<!-- spring-data-JPA版本 -->
+		<jpa.version>2.1.2.RELEASE</jpa.version>
+		<!-- hibernate版本 -->
+		<hibernate.version>5.3.7.Final</hibernate.version>
+		<!-- freemarker版本 -->
+		<freemarker.version>2.3.28</freemarker.version>
+		<!-- elasticsearch版本 -->
+		<elasticsearch.version>6.2.2</elasticsearch.version>
+		<!-- spring-data-elasticsearch版本 -->
+		<sdelasticsearch.version>3.1.2.RELEASE</sdelasticsearch.version>
+	</properties>
+
+	<!--jdk版本控制 jdk-1.8 -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+					<verbal>true</verbal>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<!-- jar包依赖 -->
+	<dependencies>
+
+	</dependencies>
+	<modules>
+		<module>../wxxd-admin</module>
+		<module>../wxxd-common</module>
+		<module>../wxxd-intf</module>
+		<module>../wxxd-service</module>
+		<module>../wxxd-web</module>
+	</modules>
+</project>

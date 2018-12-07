@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:elasticsearch="http://www.springframework.org/schema/data/elasticsearch"
+	xmlns:repository="http://www.springframework.org/schema/data/repository"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/data/elasticsearch http://www.springframework.org/schema/data/elasticsearch/spring-elasticsearch-1.0.xsd
+		http://www.springframework.org/schema/data/repository http://www.springframework.org/schema/data/repository/spring-repository-2.1.xsd">
+
+<!-- 	  <bean id="transportClient" class="com.hc.common.service.TransportClientFactoryBean">
+        <propertyname="clusterNodes" value="127.0.0.1:9300"/>
+        <propertyname="clusterName" value="elasticsearch"/>
+    </bean>
+   
+    <bean id="transportClientRepository"class="com.hc.common.persistence.TransportClientRepository">
+        <constructor-argref="transportClient"/>
+    </bean> -->
+
+</beans>
