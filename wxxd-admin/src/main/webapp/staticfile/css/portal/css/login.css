@@ -1,0 +1,138 @@
+
+/*login*/
+.loginArea{position:relative;width:100%;height:534px;background:url(images/loginBg.jpg) no-repeat top center;}
+.loginBg{position:absolute;right:178px;top:88px;width:480px;height:310px;overflow:hidden;background:#000;filter:alpha(opacity=40);-moz-opacity:0.5;-khtml-opacity:0.5;opacity: 0.5;}
+.loginBox{position:absolute;right:178px;top:88px;width:480px;height:310px;overflow:hidden;}
+.loginBox h3{width:480px;background:url(images/logh3Bg.png) repeat-x bottom;height:43px;line-height:43px;text-align:center;font-weight:700;font-size:14px;color:#fff;}
+.loginBox ul{padding-top:20px;}
+.loginBox ul li{width:480px;height:56px;line-height:28px;overflow:hidden;color:#fff;}
+.loginBox li label{float:left;width:152px;text-align:right;}
+
+/*.loginBox li input{float:left;padding-left:3px;background:url(images/loginIn.png) no-repeat 0 0;width:238px;height:28px;line-height:28px;border:none;*border:0;color:#fff;}
+.loginBox li.password{position:relative;}
+.loginBox li.password span{position:absolute;padding-left:22px;top:28px;left:152px;line-height:22px;color:#f00;background:url(images/loginIn.png) no-repeat -222px -35px;}
+.loginBox li input.wrong{background:url(images/loginIn.png) no-repeat 0 -67px;}*/
+.loginBox li span{float:left;padding-left:3px;background:url(images/loginIn.png) no-repeat 0 0;width:238px;height:28px;}
+.loginBox li span.wrong{background:url(images/loginIn.png) no-repeat 0 -67px;}
+.loginBox li input{float:left;padding-left:3px;width:231px;height:28px;line-height:28px;border:none;*border:0;background:none;color:#fff;overflow:hidden;}
+.loginBox li.password{position:relative;}
+.loginBox li.password b{position:absolute;padding-left:0px;top:28px;left:152px;line-height:22px;color:#f00;font-weight:400;}
+
+
+.loginBox li .sIn{background:url(images/loginIn.png) no-repeat 0 -30px;width:94px;}
+.loginBox li img{float:left;margin:0 9px;}
+.loginBox li.btn{padding-left:152px;height:35px;line-height:35px;}
+.loginBox li.btn a{float:left;color:#fff;}
+.loginBox .btn .button{float:left;margin-right:20px;background:url(images/loginIn.png) no-repeat -97px -30px;width:122px;height:35px;}
+.loginBox li a{color:#00f;}
+.loginBox li.last{padding-left:152px;margin-top:11px;line-height:20px;height:20px;}
+.loginBox li.last p{float:left;margin-right:9px;color:#ccc;}
+.regPage{padding-top:34px;width:100%;overflow:hidden;background:url(images/regBg.png) repeat-x;}
+.regArea{margin:0 auto;width:768px;overflow:hidden;color:#333;}
+.regArea h3{margin-bottom:64px;font-size:16px;font-family:"microsoft yahei";line-height:35px;border-bottom:1px solid #b2b2b2;font-weight:400;}
+.regArea ul,.regArea li{width:768px;overflow:hidden;}
+.regArea li{padding-left:90px;width:678px;height:56px;overflow:hidden;}
+.regArea li.setPass{position:relative;}
+.regArea li.head{line-height:20px;}
+.regArea li.head p{font-weight:700;}
+.regArea li.head span{font-weight:400;}
+.regArea li label{float:left;font-size:14px;line-height:28px;width:110px;text-align:right;}
+.regArea li input{float:left;margin-right:12px;width:237px;vertical-align:middle;}
+.regArea li input.conType2{margin-right:2px;width:14px;float:none;vertical-align:middle;}
+.conType-all{margin-top:4px;}
+.regArea li input.conType{margin-right:2px;width:14px;float:none;}
+.regArea li a.merTip{float:none;margin-left:155px;}
+.regArea li input.on{border:1px solid #78b9da;}
+.regArea li input.wrong{border:1px solid #f00;}
+.regArea li img{float:left;margin-right:4px;}
+.regArea li a{float:left;margin-top:5px;color:#369;}
+.regArea li .sIn{width:97px;}
+.regArea li span.success{float:left;height:26px;width:16px;background:url(images/loginIn.png) no-repeat -223px -98px;}
+.regArea li span.wrong{float:left;padding-left:20px;height:26px;line-height:26px;color:#dd1112;background:url(images/loginIn.png) no-repeat -223px -33px;}
+.regArea .btn{padding-left:200px;}
+.regArea .btn a{float:left;background:url(images/loginIn.png) no-repeat 0 -96px;width:122px;height:35px;}
+.regArea li .level{position:absolute;top:30px;left:200px;}
+.regArea .level p{float:left;margin-right:4px;width:79px;line-height:16px;height:16px;background:#e5e5e5;color:#fff;text-align:center;}
+.regArea .level p.low{background:#f00;}
+.regArea .level p.mid{background:#fc0;}
+.regArea .level p.heig{background:#4dc000;}
+.formTable td  .wrong{float:left;padding-left:20px;height:26px;line-height:26px;color:#dd1112;background:url(images/loginIn.png) no-repeat -223px -33px;}
+/*ǿ����֤*/
+.regArea li .safeRank{margin-top:2px;position:absolute;top:30px;left:200px;}
+.safeRank span{float:left;margin-right:4px;width:79px;line-height:16px;height:16px;background:#777777;color:#fff;text-align:center;}
+.safeRank span.on1{background:#F00;}
+.safeRank span.on2{background:#FC0;}
+.safeRank span.on3{background:#4dc000;}
+.checkMark .uiText{width:78px;vertical-align:top;}
+.checkMark img{vertical-align:top;}
+.checkMark a{display:inline-block;height:26px;margin-left:2px;line-height:26px;}
+.checkMark div{height:26px;}
+.checkMark .iptTip{margin-top:2px;padding-left:0;}
+
+/*ע��*/
+dl.regidt{}
+dl.regidt dt{height:44px;line-height:45px;border-bottom:#e4e4e4 1px solid;text-indent:10px;font-size:16px;font-family:'Microsoft YaHei';color:#444;}
+dl.regidt dd{padding-left:166px;padding-top:18px;}
+dl.regidt dd p{margin-top:26px;line-height:25px;color:#333;}
+dl.regidt dd p b{font-size:14px;}
+dl.regidt dd p a{color:#0066cc;}
+dl.regidt dd h3{height:32px;line-height:32px;padding-top:51px;padding-left:3px;font-size:14px;color:#000;}
+dl.regidt dd h3 em{display:inline-block;width:32px;height:32px;margin-right:16px;background:url(images/ui_bg.png) 0 -120px no-repeat;}
+dl.regidt dd p.info{margin-top:7px;margin-left:51px;line-height:25px;color:#333;}
+dl.regidt dd .checkmail{width:678px;height:67px;margin:30px 0 180px;padding:23px 0 0 122px;background:url(images/checkmail.png);}
+dl.regidt dd .checkmail p{margin:0;height:22px;}
+
+/*�һ�����*/
+dl.reset{margin-bottom:147px;}
+dl.mb30{margin-bottom:30px;}
+dl.reset dt{height:44px;line-height:45px;text-indent:10px;font-size:16px;font-family:'Microsoft YaHei';color:#444;}
+dl.reset dt.path{height:31px;background:url(images/reset.png) 0 0;overflow:hidden;}
+dl.reset dt.path p{float:left;width:330px;height:31px;line-height:35px;text-indent:70px;font-size:14px;color:#999;}
+dl.reset dt.path p.on{color:#fff;font-weight:bold;}
+dl.reset dt.sec{background-position:0 -31px;}
+dl.reset dt.thi{background-position:0 -62px;}
+dl.reset dd{padding-left:166px;padding-top:48px;}
+dl.reset dd h3{height:32px;padding-top:0;font-size:14px;color:#000;}
+dl.reset dd h3 em{display:inline-block;width:32px;height:32px;margin-right:16px;background:url(images/ui_bg.png) 0 -120px no-repeat;}
+dl.reset dd p{margin-top:1px;margin-left:50px;line-height:25px;color:#333;}
+dl.reset dd p.next{margin-top:15px;margin-left:104px;}
+dl.reset dd p a{color:#0066cc;}
+dl.reset dd .tips{width:560px;margin-top:100px;margin-bottom:60px;margin-left:48px;border-top:#666 1px dotted;color:#666;}
+dl.reset dd .tips h3{height:24px;margin-top:20px;font-size:12px;color:#666;}
+dl.reset dd .tips p{height:24px;margin:0;}
+dl.reset dd .login{width:465px;height:112px;margin-top:23px;margin-left:14px;}
+dl.reset dd .login li{height:56px;}
+dl.reset dd .login input{width:253px;height:26px;line-height:26px;background:url(images/text_bg.png) no-repeat;}
+dl.reset dd .login li.w375{height:20px;width:375px;}
+dl.reset dd .login li.tip{width:100px;}
+dl.reset dd .login li.tip span{margin-top:5px;padding:0;}
+
+.formTable{clear:both;margin:30px 0 80px;}
+.formTable a{color:#006DC8;}
+.formTable th,.formTable td{padding:8px 0;vertical-align:top;}
+.formTable th{width:100px;padding-top:12px;text-align:right;font-size:14px;font-weight:normal;}
+.formTable .uiText{width:238px;height:22px;line-height:22px;padding-left:3px;vertical-align:middle;}
+
+.iptTip{display:inline-block;height:21px;padding-left:1em;font-size:12px;vertical-align:middle;color:#333;line-height:21px;}
+.iptTip em{display:inline-block;width:16px;height:16px;margin-right:6px;*margin-top:2px;background:url(images/ui_bg.png) no-repeat -223px -33px;vertical-align:middle;}
+.iptTip .tipOk2{background-position:0 -160px;}
+.iptTip .tipFalse2{background-position:-40px -160px;}
+.iptTip .tipTip2{background-position:-80px -160px;}
+.tipDefault{color:#999;}
+
+/*2013-3-26 ��֯�����֤ xiaolong*/
+.regArea li input.uiText166px{width:166px;}
+.regArea li input.uiText36px{width:36px;}
+.long-line{float:left;padding-right:12px;}
+.regArea li a.qq{float:none;background: url("images/thirdBg.png") no-repeat scroll 0 -547px transparent;display: inline-block;height: 16px;vertical-align: middle;width: 16px;}
+
+/* 2013-8-18 登录 */
+.regArea .btn2 a{width:120px;line-height:30px;font-size:14px;font-weight:bold;text-align:center;color:#fff;background:url(images/aicenterBg.png) 0px -36px no-repeat;}
+.regArea .btn2 a:hover{text-decoration:none;}
+.tab{height:36px;padding-left:60px;margin-bottom:40px;font-size:14px;;border-bottom:1px solid #ddd;}
+.tab div{position:relative;top:1px;float:left;margin-right:15px;padding:0px 10px;height:34px;line-height:34px;cursor:default;border:1px solid #ddd;background:#f5f5f5;overflow:hidden;}
+.tab .on{position:relative;font-weight:bold;color:#08c;border-bottom:1px solid #fff;background:#fff;}
+.regArea .btn2 a.fotget-password{color:#08c;font-weight:normal;font-size:12px;background:none;}
+.regArea .btn2 a.fotget-password:hover{color:#f60;text-decoration:underline;}
+.suning-cor{float:left;padding-left: 110px;}
+.mt40{margin-top:40px;}

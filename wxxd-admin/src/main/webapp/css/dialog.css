@@ -1,0 +1,115 @@
+/*弹出框*/
+.pop {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pop .confirm {
+	width: 450px;
+	background-color: #fff;
+	padding-bottom: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -240px;
+	top: 60px;
+}
+
+.pop .confirm .tit {
+	font-size: 17px;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 20px;
+	font-weight: bold;	
+	border-bottom: 2px solid #0091ff;
+}
+
+.pop .confirm .btn-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.pop {
+	display: none;
+}
+
+.pop .tit {
+	margin-bottom: 20px;
+}
+
+.pop .form-group {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.pop .control-label {
+	font-size: 14px;
+	padding-top: 7px;
+
+	text-align: center;
+}
+
+.pop .pt7 {
+	padding-top: 7px;
+}
+
+.pop .confirm-editDj {
+	display: none;
+}
+
+.pop .confirm-modifyDj {
+	display: none;
+}
+
+.txtRight {
+	text-align: right;
+}
+
+
+/*模态框*/
+ .bg-modal{
+    width: 900px;
+    height:500px;
+    overflow: scroll !important;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 30px;   
+    padding: 20px 20px;
+    border: 1px solid #0091ff;
+ }
+.bg-modal p.title{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 25px 0;
+}
+
+.pro_bg {
+	font-size:20px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	border-bottom: 2px solid #0091ff;
+	background-color: #fff;
+}
+
+#table-message-id {
+	table-layout:fixed;
+}
+
+#table-message-id td:nth-child(3) {
+	width:200px;
+	overflow:hidden;
+	word-break:keep-all;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+

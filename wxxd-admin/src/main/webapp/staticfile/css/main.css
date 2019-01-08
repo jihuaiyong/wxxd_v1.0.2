@@ -1,0 +1,132 @@
+@charset "utf-8";
+.mo-wrap{position:relative;min-width:1190px;background:url(images/mo-wrapBg.png) repeat-y 0 0;overflow-x:hidden;overflow-y:auto;}
+.mo-box{overflow:hidden;}
+.mo-main{padding:0 0 0 190px;}
+
+.mo-main .main{position:relative;padding:20px 20px;zoom:1;}
+
+/*激活步骤*/
+.step .s-01,.step .s-02,.step .s-03,.step .s-04,.step .s-05,.step .s-06,.step .s-07{float:left;}
+.step .s-01 ,.step .s-03 ,.step .s-05{width:30%;}
+.step .s-02 ,.step .s-04 ,.step .s-06{width:5%;height:39px;background:url(images/bg_step.png) repeat-x center 0;}
+.step dt{heihgt:39px;line-height:39px;margin-bottom:20px;background:url(images/bg_step_x.png) repeat-x 0 0;font-size:14px;color:#FFF;text-align:center;}
+.step .s-04{background-position:center -41px;}
+.step .s-05 dt{background-position:0 -41px;}
+.step dd h6{font-weight:normal;margin-left:10%;color:#999;}
+.step dd p{margin-bottom:20px;padding:0 10%;color:#666;}
+.step dt span{padding:4px 0 4px 32px;}
+.step .s-01 dt span ,.step .s-03 dt span ,.step .s-05 dt span ,.step .s-07 dt span{background:url(images/bg_step_num.png) no-repeat 0 0;}
+.step .s-03 dt span{background-position:0 -54px;}
+.step .s-05 dt span{background-position:0 -108px;}
+.step .s-07 dt span{background-position:0 -162px;}
+.step .sBtn{margin-left:10%;}
+
+
+.step1 dt{background-position:0 -81px;}
+.step1 .s-01,.step1 .s-03,.step1 .s-05,.step1 .s-07{width:22%;}
+.step1 .s-02 ,.step1 .s-04 ,.step1 .s-06{width:3%;}
+.step1 .s-01 dt{background-position:0 -41px;}
+.step1 .s-02{background-position:center -123px;}
+.step1 .s-04 ,.step1 .s-06{background-position:center -82px;}
+.step1 .s-05 dt{background-position:0 -81px;}
+
+
+.step2 .s-01 dt ,.step3 .s-01 dt{background-position:0 0;}
+.step2 .s-03 dt{background-position:0 -41px;}
+.step2 .s-04{background-position:center -123px;}
+.step2 .s-02{background-position:center -41px;}
+/*.step2 .s-04 ,.step2 .s-06{background-position:center -82px;}*/
+.step2 .s-05 dt{background-position:0 -81px;}
+
+
+.step3 .s-03 dt{background-position:0 0;}
+.step3 .s-04{background-position:center -41px;}
+.step3 .s-02{background-position:center 0;}
+/*.step2 .s-04 ,.step2 .s-06{background-position:center -82px;}*/
+.step3 .s-05 dt{background-position:0 -41px;}
+.step3 .s-06{background-position:center -123px;}
+
+.step4 .s-04{background-position:center 0;}
+.step4 .s-05 dt{background-position:0 0;}
+.step4 .s-06{background-position:center -41px;}
+.step4 .s-07 dt{background-position:0 -41px;}
+
+
+/*warn-tips*/
+.warn-tips{padding-top:50px;color:#666;}
+.warn-tips h6{font-weight:normal;margin-left:15%;color:#999;}
+
+/*修改密码*/
+.data-table td.v-top{vertical-align: top;}
+.data-table .qulifi-box{height: 198px;overflow-y:auto;overflow-x:hidden;border: 1px solid #bbbbbb; }
+.data-table td{text-align: right;padding-bottom: 8px;padding-top: 7px;vertical-align: middle;}
+.data-table .qulifi-lali{text-align:left;}
+
+.w80{width:80px;}
+.w100{width:100px;}
+.mt5{margin-top:5px;}
+
+
+/*eStep*/
+.eStep{height:120px;width:700px;}
+.eStep .s-02 ,.eStep .s-04{float:left;margin-top:25px;width:35%;height:37px;background:url(images/bg_step_x.png) repeat-x 0 -150px;}
+.eStep .s-01 ,.eStep .s-03 ,.eStep .s-05{float:left;width:10%;color:#888;}
+.eStep .s-01 dd ,.eStep .s-03 dd ,.eStep .s-05 dd{height:37px;background:url(images/bg_step.png) no-repeat 0 0;}
+.eStep dt{text-align:center;margin-bottom:10px;font-weight:700;}
+.eStep dt .on{color:#2272c8;}
+.eStep .s-01 dd{background-position:center -163px;}
+.eStep .s-03 dd{background-position:center -210px;}
+.eStep .s-05 dd{background-position:center -256px;}
+/*.step03 dt{background-position:0 -153px;}*/
+
+.eStep2 .s-01 dd ,.eStep3 .s-01 dd{background-position:center -302px;}
+.eStep2 .s-02 ,.eStep3 .s-02 ,.eStep3 .s-04{background:url(images/bg_step_x.png) repeat-x 0 -121px}
+.eStep2 .s-03 dd{background-position:center -348px;}
+
+.eStep3 .s-03 dd{background-position:center -394px;}
+.eStep3 .s-05 dd{background-position:center -440px;}
+
+
+/*change-email*/
+.change-email{width:750px;margin:0 auto;}
+.change-email .verify{position:relative;margin-top:10px;}
+.change-email .verify .link{float:left;display:block;margin-right:10px;width:114px;height:26px;line-height:26px;background:url(images/bg_get_verify.png) no-repeat 0 0;text-align:center;}
+.change-email .verify span.link{cursor:default;color:#999;}
+.change-email .verify .link{color:#333;}
+.change-email .verify a.link:hover{background-position:0 -28px;text-decoration:none;}
+.change-email .qulifi-input{width:200px;height:24px;}
+#verifyNum{margin-top:0;}
+#getTimer,#getVerify{float:left; width:116px;}
+#getTimer{display:none;}
+#sendTip{float:left;}
+
+.change-email .help{padding:25px 5px 40px;width:610px;margin:30px auto;line-height:20px;border-top:1px dashed #D9D9D9;color:#999;}
+.change-email .help h5{margin-bottom:5px;font-weight:700;color:#F00;}
+.change-email .data-table{width:400px;margin:40px auto 0;}
+.change-email .disabled ,.change-email .disabled{background-color:#EBEBE4;}
+
+.change-email .change-pwd-success .msg{margin-bottom:20px;}
+.change-email .change-pwd-success p{line-height:24px;color:#666;}
+.change-email .change-pwd-success p em{font-weight:700;font-size:14px;font-family:Arial, Helvetica, sans-serif;}
+
+/*step2*/
+.warn-box{padding:9px 10px;width:250px;background:#FEFFEF;border:1px solid #FACC68;overflow:hidden;}
+.warn-box em{float:left;width:16px;height:16px;background:url(images/tipIcon.png) no-repeat -180px -140px;overflow:hidden;}
+.warn-box span{float:left;padding-top:1px;padding-left:5px;width:257px;line-height:14px;}
+
+.change-email .warn-box{position:absolute;left:118px;top:0;}
+.change-email .warn-box p{float:right;width:230px;}
+
+/*密码设置成功*/
+.change-pwd-success{width:300px;padding-bottom:130px;}
+.change-pwd-success .msg{margin:0 0 35px -45px;}
+.change-pwd-success .msg i{float:left;margin-right:10px;width:32px;height:32px;background:url(images/tipIcon1.png) no-repeat -120px 0;}
+.change-pwd-success .msg{font:normal 22px/30px 'Microsoft YaHei';color:#666;}
+
+/* 报错位 */
+.sTip{height:16px;overflow:hidden;}
+.sTip em{float:left;width:16px;height:16px;background:url(images/tipIcon1.png) no-repeat;overflow:hidden;}
+.sTip span{float:left;padding-left:5px;line-height:16px;color:#666;}
+.sTip-false em{background-position:-180px -70px;}
+.sTip-ok em{background-position:-180px 0;}
+.sTip .sTipok2{background-position:-180px 0;}

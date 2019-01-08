@@ -1,0 +1,34 @@
+<div class="select-month-multiple zg-date">
+    <label class="dateBox">
+        <input type="text" class="zg-form-control preview" value="{{oDate.selected.start + ' - ' + oDate.selected.end}}" ng-focus="pop.show()">
+        <i class="icon-date-o"></i>
+    </label>
+    <article class="innerPop {{pop.opens}}" ng-show="pop.isShow">
+        <div class="year">
+            <a href="javascript:;" class="btn-prev fl" ng-class="{'disabled': btnEvent.prevDisabled()}" ng-click="!btnEvent.prevDisabled() && btnEvent.prevBtn()">
+                <i></i>
+            </a>
+            <a href="javascript:;" class="btn-next fr" ng-class="{'disabled': btnEvent.nextDisabled()}" ng-click="!btnEvent.nextDisabled() && btnEvent.nextBtn()">
+                <i></i>
+            </a>
+            <p class="fl">{{oDate.prev.year}}</p>
+            <p class="fr">{{oDate.next.year}}</p>
+        </div>
+        <div class="month month-prev fl">
+            <ul>
+                <li ng-repeat="month in oDate.prev.months" ng-class="{'disabled': month.isDisabled, 'during': month.isDuring, 'start': month.isStart, 'end': month.isEnd, 'noLimit': month.isLimit}"
+                    ng-click="!month.isDisabled && btnEvent.monthItem.click(month)" ng-mouseover="!month.isDisabled && !month.isLimit && btnEvent.monthItem.mouseover(month)">{{month.name}}</li>
+            </ul>
+        </div>
+        <div class="month month-next fr">
+            <ul>
+                <li ng-repeat="month in oDate.next.months" ng-class="{'disabled': month.isDisabled, 'during': month.isDuring, 'start': month.isStart, 'end': month.isEnd, 'noLimit': month.isLimit}"
+                    ng-click="!month.isDisabled && !month.isLimit && btnEvent.monthItem.click(month)" ng-mouseover="!month.isDisabled && btnEvent.monthItem.mouseover(month)">{{month.name}}</li>
+            </ul>
+        </div>
+        <div class="btnBox">
+            <a href="javascript:;" class="button button-primary" ng-class="{'disabled': btnEvent.disabledSure}" ng-click="!btnEvent.disabledSure && btnEvent.sure()">确定</a>
+            <a href="javascript:;" class="button button-default" ng-click="btnEvent.cancel()">取消</a>
+        </div>
+    </article>
+</div>

@@ -1,0 +1,7 @@
+.date {float: left;position: relative;width: 150px;}
+.sel{float:left; width:60px;height:30px;line-height:22px;}
+th div{float:left;width:70px;height:30px;line-height:30px;}
+th .qstatus{height:25px;width:60px;float:left; border:1px solid #DDD;margin:2px;font-size:12px; vertical-align:middle;}
+.qdata{float:left;}
+.wenjiuan-area .date em{position:absolute;top:7px;width:16px;height:13px;background:url(images/sidebg.png) -84px -106px no-repeat;cursor:pointer;right:10px;}
+

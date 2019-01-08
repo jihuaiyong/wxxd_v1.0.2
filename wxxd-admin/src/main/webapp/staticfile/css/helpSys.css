@@ -1,0 +1,160 @@
+/* helpSys by zhangbo
+---------------------------------*/
+.helpBox{width:100%;background:url(images/aicenterLine.png) repeat-x left top;}
+.helpBox .pathWarp{padding-top:10px;*padding-top:0;}
+
+.phoneNum{display:block;text-align:right;font-size:12px;color:#444;font-weight:bold;}
+.phoneNum strong{color:#ef8200;font-family:Arial;}
+.logisList dt.helpList_1{background:url(images/helpTil.png) no-repeat 10px 0px;}
+.logisList dt.helpList_2{background:url(images/helpTil.png) no-repeat 10px -35px;}
+.logisList dt.helpList_3{background:url(images/helpTil.png) no-repeat 10px -70px;}
+.logisList dt.helpList_4{background:url(images/helpTil.png) no-repeat 10px -105px;border-bottom:1px solid #e3e3e3;padding-bottom:10px;}
+.logisList dt.helpList_5{background:url(images/helpTil.png) no-repeat 10px -150px;}
+
+.helpSys h1{height:33px;padding:0 10px;line-height:33px;font-size:16px;font-family:"microsoft yahei";font-weight:normal;background:#e4e4e4}
+.helpSys h2{padding:20px 0 0 25px;;line-height:25px;font-size:14px;font-family:"microsoft yahei";color:#444;font-weight:bold;}
+.helpSys p{padding:0 25px;line-height:20px;font-size:12px;color:#777;}
+.helpSys img{padding:10px;}
+.helpSys ul{overflow:hidden;height:28px;margin:15px 10px;border-bottom:2px solid #0b76b2;}
+.helpSys ul li{float:left;width:120px;height:27px;line-height:27px;font-size:12px;font-weight:bold;color:#333;text-align:center;border-top:1px solid #b6cfea;border-left:1px solid #b6cfea;background:url(images/tab_bg.png) repeat-x left top;cursor:pointer;}
+.helpSys ul li.last{border-right:1px solid #b6cfea;}
+.helpSys ul li.selected{background:#0b76b2;color:#fff;}
+
+.helpSys .tabpannel{display:none;}
+.helpSys .maininfo,
+.helpSys .tabpannel span{display:block;padding:0 10px 20px 10px;font-size:14px;color:#444;font-weight:bold;text-align:right;}
+.helpSys .maininfo{padding:10px 10px 20px 10px;}
+.helpSys .tabpannel span.imfile{padding:0 10px;}
+.helpSys .tabpannel span strong{color:#f00;line-height:20px;font-size:12px;}
+.helpSys .tabpannel b{display:block;padding:5px 10px 20px 10px;font-size:12px;line-height:20px;color:#333;font-weight:normal;text-align:right;}
+.helpSys  table{margin:0 10px;}
+.helpSys  table thead td{height:30px;text-align:center;line-height:30px;font-size:14px;color:#333;font-weight:bold;border-right:1px solid #b7cced;background:#deeafb;}
+.helpSys  table tbody tr.alt{background:#f6f6f6;}
+.helpSys  table tbody td{font-size:12px;border:1px solid #e3e3e3;color:#777;}
+.helpSys  table tbody td strong{color:red;font-weight:normal;padding:0 3px;}
+.helpSys  table tbody td a{color:#326698;padding:0 3px;}
+.helpSys  table tbody td a:hover{color:#f60;text-decoration:underline;}
+.helpSys table tbody .centerW{text-align:center;font-weight:bold;font-size:14px;color:#333;}
+.helpSys table tbody .secondC{text-align:left;font-size:12px;line-height:40px;padding:0 0 0 10px;}
+.helpSys table tbody p{padding:0 10px;}
+.helpSys table tbody .email{line-height:40px;color:#369;padding:0 0 0 10px;}
+.helpSys table tbody .center{text-align:center;line-height:40px;}
+.helpSys  table tbody td h4{color:#333;font-weight:bold;padding:20px 0 0 10px;}
+
+.helpSys .tabpannel .rongzi{width:780px;height:722px;margin:0 auto;background:url(images/rongzi.jpg) top left no-repeat;}
+.helpSys .tabpannel .rongzi p{font-size:12px;line-height:20px;color:#333;overflow:hidden;}
+.helpSys .tabpannel .rongzi p.step-1{padding:20px 6px 0 174px;height:112px;}
+.helpSys .tabpannel .rongzi p.step-2{padding:10px 6px 0 174px;height:133px;}
+.helpSys .tabpannel .rongzi p.step-3{padding:10px 6px 0 174px;height:154px;}
+.helpSys .tabpannel .rongzi p.step-4{padding:10px 6px 0 174px;height:151px;}
+.helpSys .tabpannel .rongzi p.step-5{padding:10px 6px 0 174px;height:105px;}
+
+.helpSys .tabpannel h4{line-height: 33px;padding:0 15px;margin:5px 10px;background:#f6f6f6;color:#333;font-weight: bold;}
+
+
+/* 2013-8-19 帮助中心改版 xiaolong */
+.help-main{overflow:hidden;*zoom:1;}
+.help-main .left-menu{float:left;width:190px;}
+.first-nav{width:188px;border:1px solid #dddddd;border-bottom:0 none;}
+.help-main .right-content{float:left;width:790px;margin-left:10px;border:1px solid #ddd;}
+.help-main .w992{width:992px;margin:0 auto;margin-top:30px;overflow:hidden;*zoom:1;}
+.left-menu ul{overflow:hidden;*zoom:1;}
+.first-nav li{float:left;width:188px;}
+.first-nav li a.first-a{float:left;width:161px;height:35px;line-height:35px;color:#555;font-weight:bold;}
+.first-nav li i{float:left;width:13px;height:13px;margin-left:9px;margin-top:12px;margin-right:5px;background:url(images/newhelpcenter.png) 0px 0px no-repeat;}
+.second-nav,.third-nav{float:left;display:none;}
+.second-nav li a{float:left;height:34px;line-height:34px;width:152px;color:#666;}
+.second-nav li em{float:left;width:36px;height:34px;background:url(images/newhelpcenter.png) 0px -31px no-repeat;}
+.first-div{float:left;border-bottom:1px solid #ddd;background:url(images/leftmenvbg.png) repeat-x;}
+.second-div{float:left;border-bottom:1px solid #e9e9e9;}
+.third-nav li a{padding-left:46px;width:142px;}
+.on .second-nav,.on1 .third-nav{display:block;}
+.on .first-div i{background-position:0px -16px;}
+.on .first-div a.first-a{color:#333;}
+.on1 .second-div em{background-position:0px -67px;}
+.on1 .second-div a{font-weight:bold;color:#333;}
+.third-nav .last{border-bottom:1px solid #e9e9e9;}
+.on1 .third-nav .foc{font-weight:bold;}
+.on1 .third-nav .foc a{color:#333;}
+.contact-us{margin-top:10px;border:1px solid #ddd;}
+.contact-us h3{height:34px;line-height:34px;font-weight:bold;font-size:14px;color:#333;text-indent:10px;}
+.contact-us .tel{margin:8px 0px 9px 20px;color:#666;line-height:20px;}
+.help-main .right-content{width:792px;border:0 none;}
+/* search */
+.g-search{position:relative;float:left;display:inline;width:549px;height:40px;margin:0px;background:#EFEFEF;z-index:90;}
+.g-search .left-sidebar, .g-search .right-sidebar{display:inline-block;float:left;width:3px;height:40px;background:url(images/public.sprite.png) 0 -18px no-repeat;overflow:hidden;}
+.g-search .right-sidebar{float:right;background-position:-4px -18px;}
+.g-search .search-keyword, .g-search  .search-btn{float:left;}
+.g-search .search-keyword{margin-top:3px;width:434px;height:18px;padding:7px 4px;border:1px solid #E4E4E4;border-right:0;color:#BBB;}
+.g-search  .search-btn{width:100px;height:34px;margin-top:3px;border:0;cursor:pointer;background:url(images/public.sprite.png) -20px -21px no-repeat #FFA215;}
+.g-search  .search-btn-hover{background-position:-122px -21px;}
+.g-search-book{margin-right:56px;}
+.g-search-focus{background:#ffecd0;}
+.g-search-focus .left-sidebar{background-position:-8px -18px;}
+.g-search-focus .right-sidebar{background-position:-12px -18px;}
+.g-search-focus .search-keyword{border-color:#F90;color:#333;}
+.g-search .adv-search{margin:0;position:absolute;right:-34px;top:5px;display:inline-block;width:24px;line-height:1.2em;}
+#snKeywordNew{float:left;width:700px;padding-left:10px;color:#666;}
+#snKeywordNew a{color:#666;}
+.search-area{padding:25px 0px 15px 24px;overflow:hidden;*zoom:1;border:1px solid #ddd;}
+.question-list{margin-top:10px;border:1px solid #ddd;}
+.question-list .title{text-indent:10px;height:34px;line-height:34px;color:#999;background:#f2f2f2;}
+.question-list .title a{color:#0066cc;}
+.st{padding:0px 5px;font-size:12px;font-family:"\5b8b\4f53";}
+.title2{padding-left:20px;padding-right:20px;height:46px;line-height:46px;font-weight:bold;font-size:14px;color:#333;}
+.title2 span{float:left;}
+.title2 a.a-r{float:right;margin-top:6px;width:26px;height:26px;background:url(images/newhelpcenter.png) -31px -134px no-repeat;}
+.title2 a.a-l{float:right;margin-top:6px;margin-right:5px;width:26px;height:26px;background:url(images/newhelpcenter.png) 0px -134px no-repeat;}
+.title2 a.ar-disabled{background-position:-31px -105px;}
+.title2 a.al-disabled{background-position:0px -105px;}
+.quesition-title{padding-left:24px;padding-bottom:50px;overflow:hidden;*zoom:1;}
+.quesition-title li{float:left;width:370px;height:30px;line-height:30px;}
+.quesition-title li s{float:left;margin-top:15px;margin-right:5px;width:2px;height:2px;overflow:hidden;background:#0066cc;}
+.quesition-title li a{float:left;width:360px;color:#0066cc;text-overflow:ellipsis;white-space:nowrap;word-break:break-all;overflow:hidden;}
+.topBG{width:990px;height:73px;margin:0 auto;overflow:hidden;}
+.topBG .logo{float:left;}
+.topBG .nav{float:right;}
+.topBG .nav ul{margin-top:24px;}
+.topBG .nav li{float:left;_display:inline;margin-left:40px;width:84px;line-height:30px;text-align:center;}
+.topBG .nav li{font-size:17px;font-family:"微软雅黑";font-weight:400;}
+.topBG .nav li a:hover{color:#f60;text-decoration:none;}
+.topBG .nav li.on a{color:#f60;}
+.topBG .nav a{color:#222;}
+.q-a{padding:0px 20px 15px 20px;}
+.q-title{height:54px;line-height:54px;font-size:14px;font-weight:bold;color:#333;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.a-content{margin-bottom:12px;color:#666;}
+.q-a .helpSys table{margin:0px;}
+.q-a h3{margin-bottom:15px;color:#333;}
+.pl20{padding-left:20px;}
+.photo-img img{margin-left:20px;display:block;}
+.question-list2 ul{margin-top:20px;}
+.question-list2 ul li a{color:#666666;}
+.question-list2 .quesition-title li s{color:#666;}
+.question-list2 .title h3{padding-left:10px;color:#333;font-size:14px;}
+.two-tab{height:30px;margin-left:10px;margin-top:10px;line-height:30px;width:770px;background:url(images/newhelpcenter.png) 0px -328px no-repeat;}
+.two-tab div{position:relative;float:left;width:385px;height:30px;text-align:center;color:#333;font-weight:bold;cursor:default;}
+.two-tab div s{display:none;}
+.two-tab div.on s{display:block;position:absolute;top:30px;left:180px;width:17px;height:8px;background:url(images/newhelpcenter.png) 0px -169px no-repeat;}
+.two-tab div.on{color:#fff;background:#0e7cba;}
+.two-content{margin-left:10px;margin-top:10px;padding-bottom:200px;}
+.no-result{margin:0px 0px 30px 25px;color:#666;}
+.no-result .t{height:56px;line-height:56px;font-size:12px;font-weight:bold;color:#333;}
+.no-result .kefu{margin-top:10px;height:30px;line-height:30px;}
+.no-result .kefu span{float:left;}
+.no-result .kefu a{float:left;width:110px;height:30px;margin-left:30px;background:url(images/newhelpcenter.png) 0px -221px no-repeat;}
+.no-result .kefu a:hover{background-position:0px -254px;}
+.search-list{padding-left:25px;color:#666;}
+.search-list .more-information{height:28px;line-height:28px;color:#333;}
+.search-list dl{padding-bottom:10px;}
+.cff0000{color:#ff0000;}
+.mt20{margin-top:20px;}
+.ml0{margin-left:0px;}
+
+
+
+
+
+
+
+
+

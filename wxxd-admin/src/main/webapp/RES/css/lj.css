@@ -1,0 +1,573 @@
+.mt50 {
+	margin-top: 50px !important;
+}
+
+.bgf5 {
+	background-color: #f5f5f5;
+}
+
+.page-title {
+	font: 24px/72px "MicroSoft Yahei";
+	color: #333;
+	text-align: center;
+}
+
+.config-title {
+	font: 20px/42px "MicroSoft Yahei";
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-wrap {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.red-point {
+	margin-right: 5px;
+	font-family: "fangsong";
+	color: #f00000;
+}
+
+.bottomBtn {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.blueBtn {
+	display: inline-block;
+	width: 112px;
+	height: 35px;
+	text-align: center;
+	overflow: hidden;
+	color: #FFF;
+	background: #61bdf2;
+	border-radius: 3px;
+	font: 700 14px/35px "MicroSoft Yahei";
+}
+
+.blueBtn:hover {
+	background: #35adf2;
+}
+
+.s-blueBtn {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	overflow: hidden;
+	color: #FFF;
+	background: #61bdf2;
+	border-radius: 2px;
+}
+
+.s-blueBtn:hover {
+	background: #35adf2;
+}
+
+.s-delBtn {
+	display: inline-block;
+	border: 1px solid #e4e4e4;
+	width: 78px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	overflow: hidden;
+	color: #333;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+.s-delBtn:hover {
+	background: #35adf2;
+	color: #fff;
+	border-color: #61bdf2;
+}
+
+.s-delBtn em {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url(images/del-icon.png) no-repeat;
+	vertical-align: middle;
+}
+
+.tab-wrap {
+	font: 16px/42px "MicroSoft Yahei";
+}
+
+.tab-wrap ul {
+	float: left;
+	height: 42px;
+	background-color: #e6e8e9;
+}
+
+.tab-wrap ul li {
+	float: left;
+	width: 216px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}
+
+.tab-wrap ul li.active {
+	background-color: #fff;
+	border-bottom-color: #fff;
+	color: #35adf2;
+}
+
+.tb-box {
+	padding: 10px 19px 24px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.tb-box>h2 {
+	color: #18a2f2;
+	font: 16px "MicroSoft Yahei";
+}
+
+.tb-box>h3 {
+	padding-top: 13px;
+}
+
+.tb-box>h3>span {
+	float: left;
+	font-weight: 400;
+	font-family: "MicroSoft Yahei";
+}
+
+.tb-box>h3>em {
+	float: right;
+	font-weight: 400;
+	color: #999;
+}
+
+.tb-box>h4 {
+	padding-top: 10px;
+	padding-left: 12px;
+	color: #666;
+	font-weight: 400;
+	font-family: "MicroSoft Yahei";
+}
+
+.tb-box>table {
+	table-layout: fixed;
+	width: 100%;
+	margin-top: 6px;
+	border-right: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+}
+
+.tb-box>table td,.tb-box>table th {
+	white-space: normal;
+	overflow: visible;
+}
+
+.tb-box>table thead th {
+	padding: 11px 10px;
+	border-left: 1px solid #fff;
+	background-color: #eaeced;
+	color: #666;
+	text-align: left;
+}
+
+.tb-box>table thead th:first-child {
+	border-left-color: #e4e4e4;
+}
+
+.tb-box>table tbody th {
+	padding: 11px 10px;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	background-color: #f7f8f8;
+	color: #999;
+	text-align: right;
+}
+
+.tb-box>table tbody th input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+.tb-box>table tbody td {
+	position: relative;
+	padding: 11px 10px;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: left;
+}
+
+.tb-box>table tbody td a {
+	margin-right: 10px;
+}
+
+.tb-box>table tbody td a.img-link:before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url(images/sp.png) -66px -97px no-repeat;
+	vertical-align: middle;
+}
+
+.tb-box>table tbody td a.attach-btn {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -8px;
+	margin-right: 0;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(images/sp.png) no-repeat;
+}
+
+.tb-box>table tbody td a.attach-btn.hj {
+	background-position: -113px -97px;
+}
+
+.tb-box>table tbody td a.attach-btn.fj {
+	background-position: -158px -97px;
+}
+
+.tb-box>table tbody td input[type="radio"] {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.tb-box>table tbody td input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+.tb-box>table tbody td input[type="text"] {
+	width: 88%;
+	border: 0 none;
+}
+
+.tb-box>table tbody td select {
+	width: 100%;
+	padding: 5px 0 5px 10px;
+	border: 1px solid #ddd;
+}
+
+.tb-box>table tbody td label {
+	margin-right: 30px;
+}
+
+.tb-box .links-wrap {
+	padding: 15px 0;
+	margin-left: 20px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.tb-box .links-wrap a {
+	color: #30abf2;
+	text-decoration: underline;
+	margin-right: 40px;
+}
+
+.tb-box .links-wrap a:after {
+	content: "";
+	display: inline-block;
+	width: 9px;
+	height: 6px;
+	margin-left: 8px;
+	background: url(images/sp.png) -151px -175px no-repeat;
+	vertical-align: middle;
+}
+
+.tb-box .controlTb-btns {
+	padding-top: 7px;
+	text-align: right;
+}
+
+.tb-box .controlTb-btns a {
+	display: inline-block;
+	width: 112px;
+	height: 38px;
+	text-align: center;
+	overflow: hidden;
+	color: #FFF;
+	border-radius: 3px;
+	font: 700 14px/38px "MicroSoft Yahei";
+}
+
+.tb-box .controlTb-btns a.add {
+	border: 1px solid #61bdf2;
+	background: #61bdf2;
+}
+
+.tb-box .controlTb-btns a.add:hover {
+	background-color: #35adf2;
+}
+
+.tb-box .controlTb-btns a.disabled {
+	border: 1px solid #ddd;
+	background: #f8f8f8;
+	color: #666;
+}
+
+.tb-box .controlTb-btns a.del {
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	color: #666;
+}
+
+.tb-box .controlTb-btns a.del:hover {
+	background-color: #35adf2;
+	border-color: #35adf2;
+	color: #fff;
+}
+
+.top-submit {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 600;
+	box-shadow: 0 1px #e5e5e5, 0 2px #ededed, 0 3px #f2f2f2;
+}
+
+.saveBtn-wrap {
+	padding: 18px 0;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.saveBtn-wrap a {
+	color: #666;
+	margin-right: 30px;
+}
+
+.saveBtn-wrap a:before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url(images/sp.png) no-repeat;
+	vertical-align: middle;
+}
+
+.saveBtn-wrap a.close:before {
+	background-position: -434px -97px;
+}
+
+.saveBtn-wrap a.save:before {
+	background-position: -480px -97px;
+}
+
+.saveBtn-wrap a.submit:before {
+	background-position: -526px -97px;
+}
+
+.saveBtn-wrap a.flow:before {
+	background-position: -572px -97px;
+}
+
+.layui-layer-title {
+	height: 40px !important;
+	background-color: #ededed !important;
+	color: #666 !important;
+	border-bottom: 1px solid #ddd !important;
+	overflow: visible !important;
+}
+
+.layui-layer-title span {
+	display: inline-block;
+	margin-bottom: -1px;
+	border-bottom: 2px solid #61bdf2;
+	font: 16px/38px "MicroSoft Yahei";
+}
+
+.layui-layer-btn {
+	text-align: center !important;
+}
+
+.layui-layer-btn a {
+	height: 34px !important;
+	line-height: 34px !important;
+	font-family: "MicroSoft Yahei" !important;
+	font-size: 14px !important;
+	padding: 0 30px !important;
+	border: 1px solid #b3dbf2 !important;
+	background-color: #ebf8ff !important;
+	color: #444 !important;
+}
+
+.layui-layer-btn a:hover {
+	border-color: #35adf2 !important;
+	background-color: #35adf2 !important;
+	color: #fff !important;
+}
+
+.layui-layer-content {
+	/**overflow: visible !important;*/
+}
+
+.pop-hj {
+	padding: 20px 20px 0;
+}
+
+.p-wrap {
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+}
+
+.p-wrap h3 {
+	color: #18a2f2;
+	font: 16px "MicroSoft Yahei";
+}
+
+.p-wrap .p-form-tb {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.p-wrap .p-form-tb th {
+	padding: 5px 0;
+	text-align: right;
+}
+
+.p-wrap .p-form-tb td {
+	padding: 5px 0;
+	text-align: left;
+}
+
+.p-wrap .p-form-tb td input[type="text"] {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+}
+
+.p-wrap .p-form-tb td select {
+	width: 100%;
+	padding: 5px 0 5px 10px;
+	border: 1px solid #ddd;
+}
+
+.p-btns {
+	padding-top: 5px;
+	text-align: right;
+}
+
+.tb-scroll {
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.p-tb {
+	table-layout: fixed;
+	width: 100%;
+	margin-top: 6px;
+	border-right: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+}
+
+.p-tb td,.p-tb th {
+	white-space: normal;
+	overflow: visible;
+}
+
+.p-tb thead th {
+	padding: 11px 10px;
+	border-left: 1px solid #fff;
+	background-color: #eaeced;
+	color: #666;
+	text-align: left;
+}
+
+.p-tb thead th:first-child {
+	border-left-color: #e4e4e4;
+}
+
+.p-tb tbody th {
+	padding: 11px 10px;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	background-color: #f7f8f8;
+	color: #999;
+	text-align: right;
+}
+
+.p-tb tbody th input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+.p-tb tbody td {
+	position: relative;
+	padding: 11px 10px;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: left;
+}
+
+.p-tb tbody td a {
+	margin-right: 10px;
+	color: #30abf2;
+	text-decoration: underline;
+}
+
+.p-tb tbody td a.img-link:before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url(images/sp.png) -66px -97px no-repeat;
+	vertical-align: middle;
+}
+
+.p-tb tbody td a.attach-btn {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -8px;
+	margin-right: 0;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #999;
+}
+
+.p-tb tbody td input[type="radio"] {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.p-tb tbody td input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+.p-tb tbody td input[type="text"] {
+	width: 88%;
+	border: 0 none;
+}
+
+.p-tb tbody td select {
+	width: 100%;
+	padding: 5px 0 5px 10px;
+	border: 1px solid #ddd;
+}
+
+.p-tb tbody td label {
+	margin-right: 30px;
+}
+
+.toolbar {
+	width:100%;
+	height:30px;
+	line-height:30px
+}
+
+.toolbar>h2 {
+	color: #18a2f2;
+	font: 16px "MicroSoft Yahei";
+}

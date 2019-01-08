@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+input.fieldError {
+	border: 1px solid #ffb042;
+	background-color: #fffbf5;
+}
+
+select.fieldError {
+	border: 1px solid #ffb042;
+	background-color: #fffbf5;
+}
+
+label.fieldError {
+	height: 25px;
+	line-height: 25px;
+	color: #ffb042;
+}

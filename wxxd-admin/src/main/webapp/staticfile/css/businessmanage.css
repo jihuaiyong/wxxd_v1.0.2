@@ -1,0 +1,229 @@
+@charset "utf-8";
+/*日历控件*/
+.cal-prev,.cal-next{position:absolute;cursor:pointer;overflow:hidden;text-indent:-9999px;background:url(images/calendar/T1NKKMXotsXXXXXXXX-185-123.png) no-repeat;}
+.cal-prev,.cal-next{top:50%;width:20px;height:38px;margin-top:-19px;}
+.cal-prev{left:10px;background-position:0 -25px;}
+.cal-next{right:10px;background-position:-20px -25px;}
+.cal-container{float:left;margin:10px 10px 0;}
+.calendar{font-family:Tahoma;position:relative;float:left;clear:both;border:1px solid;border-color:#85BEE5 #3485C0 #3485C0 #85BEE5;padding:0 30px 15px;background:#FFF;}
+.calendar dl,.calendar dd{margin:0;padding:0;width:183px;font-size:12px; line-height:22px;}
+.calendar dt.title-date{display:block;border-bottom:1px solid #E4E4E4;font-weight:700;position:relative;margin-bottom:5px; padding-bottom:3px;}
+.calendar dt{ float:left; width:25px; margin-left:1px; text-align:center;}
+.calendar dt.title-date{ width:100%;}
+.calendar dd{clear: both;width:183px;height:139px;font-weight: 700;background:url(images/calendar/o_bg.png) no-repeat; margin:0;}
+.prevyear{  left:4px;width:9px;}
+.prevmonth{ width:5px;background-position:-9px 0; left:20px;}
+.nextyear{  width:9px;background-position:-19px 0; right:5px;}
+.nextmonth{ width:5px;background-position:-14px 0; right:20px;}
+.calendar dd a{float:left;width: 25px;height: 22px; overflow: hidden; text-decoration: none;margin: 1px 0 0 1px; text-align:center;color:#333;}
+.calendar dd a.hover{background:#BBDDF4;color:#fff;}
+.calendar dd a:hover{background:#f60;color:#fff;}
+.calendar dd a.disabled:hover,.calendar dd a.disabled{background:#fff;color:#999;cursor:default;}
+.calendar dd a.startdate{background:#06c;color:#fff;}
+.calendar dd a.today,.calendar dd a.today:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -290px;text-indent:-9999px;}
+.calendar dd a.yuandan,.calendar dd a.yuandan:hover{background:url(images/calendar/un_festivals.png) no-repeat;text-indent:-9999px;}
+.calendar dd a.chuxi,.calendar dd a.chuxi:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -32px;text-indent:-9999px;}
+.calendar dd a.chunjie,.calendar dd a.chunjie:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -64px;text-indent:-9999px;}
+.calendar dd a.yuanxiao,.calendar dd a.yuanxiao:hover{background:url(images/un_festivals.png) no-repeat 0 -96px;text-indent:-9999px;}
+.calendar dd a.qingming,.calendar dd a.qingming:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -128px;text-indent:-9999px;}
+.calendar dd a.wuyi,.calendar dd a.wuyi:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -160px;text-indent:-9999px;}
+.calendar dd a.duanwu,.calendar dd a.duanwu:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -192px;text-indent:-9999px;}
+.calendar dd a.zhongqiu,.calendar dd a.zhongqiu:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -224px;text-indent:-9999px;}
+.calendar dd a.guoqing,.calendar dd a.guoqing:hover{background:url(images/calendar/un_festivals.png) no-repeat 0 -256px;text-indent:-9999px;}
+/*uiBtn*/
+.uiBtn,.uiBtn span{display:inline-block;color:#fff;background:url(images/uiBtn.png) left 0 no-repeat;cursor:pointer;vertical-align:top;}
+.uiBtn:hover{text-decoration:none;}
+/*uiBtn 开设店铺按钮*/
+.case1,.case1 span{line-height:34px;padding-left:24px;font-family:"Microsoft YaHei";font-size:18px;background-position:left 0;}
+.case1 span{padding-left:0;padding-right:24px;background-position:right 0;}
+/*
+.case1:hover,.case1:hover span{background-position:;text-decoration:none;}
+.case1:hover span{background-position:;}
+*/
+/*uiBtn 提交页面按钮*/
+.case2,.case2 span{line-height:34px;padding-left:26px;font-size:16px;font-weight:700;background-position:left -70px;}
+.case2 span{padding-left:0;padding-right:26px;background-position:right -70px;}
+/*
+.case2:hover,.case2:hover span{background-position:;text-decoration:none;}
+.case2:hover span{background-position:;}
+*/
+/*uiBtn 一般提交按钮*/
+.case3,.case3 span{line-height:34px;padding-left:24px;font-size:14px;font-weight:700;background-position:left 0;}
+.case3 span{padding-left:0;padding-right:24px;background-position:right 0;}
+/*
+.case3:hover,.case3:hover span{background-position:;text-decoration:none;}
+.case3:hover span{background-position:;}
+/*
+/*uiBtn 保存按钮*/
+.case4,.case4 span{line-height:34px;padding-left:24px;font-size:14px;font-weight:700;background-position:left -70px;}
+.case4 span{padding-left:0;padding-right:24px;background-position:right -70px;}
+/*
+.case4:hover,.case4:hover span{background-position:;text-decoration:none;}
+.case4:hover span{background-position:;}
+*/
+/*uiBtn 取消按钮*/
+.case5,.case5 span{line-height:34px;padding-left:24px;font-size:14px;font-weight:700;background-position:left -175px;}
+.case5 span{padding-left:0;padding-right:24px;background-position:right -175px;color:#444;}
+/*uiBtn 进入店铺按钮*/
+.case6,.case6 span{line-height:26px;padding-left:16px;font-size:12px;background-position:left -210px;}
+.case6 span{padding-left:0;padding-right:16px;background-position:right -210px;font-weight:normal;color:#333;}
+.case6:hover,.case6:hover span{background-position:left -240px;text-decoration:none;}
+.case6:hover span{background-position:right -240px;color:#3377cc;}
+/*uiBtn 查询按钮*/
+.case7,.case7 span{line-height:26px;padding-left:16px;font-size:12px;background-position:left -270px;}
+.case7 span{padding-left:0;padding-right:16px;background-position:right -270px;color:#fff;}
+.uiBtn.disable{background-position:left -140px;}
+.uiBtn.disable span{background-position:right -140px;}
+/*弹框*/
+.popupwin{display: block;position: absolute;left: 50%;top:800px;width:450px;margin-left: -220px;overflow: hidden;z-index: 999999;}
+.popmain{position: relative;top: 0px;left: 0px;margin: 6px;background: #FFF;z-index: 3;}
+.poptitle{line-height:30px;height:30px;border-bottom:1px solid #ccc; background:#eee;padding:0 10px;}
+.poptitle span{float:left;font-size:14px; font-family: "SimSun";line-height:30px;}
+.poptitle a{float:right;color:#666;font:400 24px tahoma;}
+.poptitle a:hover{color: #f70;text-decoration:none;}
+.popcon{padding:20px 30px;overflow:hidden;}
+.popubg{position: absolute;left: 0px;top: 0px;background: #000;height: 1500px;width: 100%;z-index: 2;filter: alpha(opacity=30);opacity: .3;}
+/**/
+.fr{display:inline;float:right;}
+.mr5{margin-right:5px;}
+.gray9{color:#999!important;}
+.tar{text-align:right;}
+.vat{vertical-align:top;}
+.newinput{height:18px;padding:3px 4px;border:1px solid #a2a2a2;}
+.datechoosebox{position:relative;display:inline-block;*display:inline;zoom:1;}
+.datechoosebox a{position:absolute;top:7px;right:5px;display:block;width:16px;height:13px;background: url(images/inputDateBg.jpg) no-repeat;}
+.datedisable,.datedisable input{background-color:#E1E1E1;}
+.datedisable a{background-image:url(images/un-inputDateBg.jpg);}
+.spaceem{display:inline-block;height:26px;padding:0 9px;color:#666;line-height:26px;_line-height:28px;}
+/**/
+.busmanage{padding-right:0;padding-bottom:30px;z-index:888;}
+.busmanage .newxbox{border:1px solid #d8dee3;}
+.busmanage .newxbox .newxtitle{height:35px;padding:0 15px;font-size:14px;color:#333;line-height:36px;background-color:#f5f5f5;}
+.busmanage .bu-condition{height:408px;margin-right:260px;}
+.busmanage .bu-condition .newxcontent{overflow:hidden;}
+.bu-cond-box{width:100%;height:276px;border-bottom:1px solid #d8dee3;overflow:hidden;}
+.bu-cond-box dl.dlbox{display:inline;float:left;width:49.9%;height:100%;margin-left:-1px;border-left:1px solid #d8dee3;overflow:hidden;}
+.bu-cond-box dl.dlbox dt{height:30px;font-weight:700;line-height:30px;text-align:center;background-color:#deeafb;}
+.bu-cond-box dl.dlbox dd{padding:10px 10px 0;overflow:hidden;}
+.bu-cond-box dl.bu-module dd,.bu-cond-box dl.bu-param dd{height:236px;overflow-y:scroll;}
+.bu-cond-box .bu-tree{}
+.bu-cond-box .bu-tree li ul{display:none;}
+.bu-cond-box .bu-tree li li{margin-left:15px;}
+.bu-cond-box .bu-tree li .treenodeitem{padding-left:15px;background:url(images/bs-sprite.png) -191px -41px no-repeat;cursor:pointer;}
+.bu-cond-box .bu-tree li .open{background-position:-191px -21px}
+.bu-cond-box .bu-tree li .lasttreenode{padding-left:0;background-image:none;}
+.bu-cond-box .bu-tree li a{display:block;height:22px;line-height:22px;color:#333;}
+.bu-cond-box .bu-tree li a:hover{color:#333;text-decoration:none;}
+.bu-cond-box .bu-tree li a.on{background-color:#deeafb;}
+.bu-cond-box dl.bu-brandbox dd{padding:10px 0;}
+.bu-cond-box .brand-search{padding:0 10px;}
+.bu-cond-box .brand-search .bsearchbtn{float:left;width:18px;height:18px;margin-top:4px;margin-right:10px;border:0 none;background:url(images/bs-sprite.png) right -67px no-repeat;cursor:pointer;}
+.bu-cond-box .brand-search .newinput{width:150px;}
+.bu-cond-box .brand-result{width:100%;height:204px;margin-top:10px;border-top:1px solid #f3f1f1;overflow-y:scroll;}
+.bu-cond-box .brand-result ul li{height:22px;padding:0 10px;border-bottom:1px dashed #f3f1f1;line-height:22px;overflow:hidden;word-break:break-all;word-wrap:break-word;}
+.bu-cond-box .brand-result ul li label{display:block;}
+.bu-cond-box .brand-result ul li input{margin-right:5px;vertical-align:middle;*vertical-align:-4px;_vertical-align:-3px;}
+/******************/
+.busmanage .bu-quickoptbox{float:right;width:248px;height:408px;}
+.busmanage .bu-quickoptbox .newxtitle{background-color:#f8fafb;}
+.busmanage .bu-quickoptbox .bprocode{padding:25px 0 35px;padding-left:10px;border-bottom:1px dashed #d8dee3;overflow:hidden;}
+.busmanage .bu-quickoptbox .bprocode input{display:inline;float:left;}
+.busmanage .bu-quickoptbox .bprocode .newinput{width:150px;margin-top:3px;}
+.busmanage .bu-quickoptbox .bprocode .bprosearchbtn{width:61px;height:32px;margin-left:10px;border:0 none;background:url(images/bs-sprite.png) left -20px no-repeat;cursor:pointer;}
+.busmanage .boptbtn{padding-top:20px;text-align:center;}
+.busmanage .boptbtn a{display:inline-block;margin-top:10px;}
+.buchoosebox{padding:15px 10px;}
+.buchoosed {height:20px;line-height:20px;}
+.buchoosed ul,.buchoosebox .bulb{display:inline;float:left;overflow:hidden;}
+.buchoosed ul {margin-top:-5px;}
+.buchoosed ul li{display:inline;float:left;height:20px;margin-right:5px;margin-top:5px;background:url(images/bs-sprite.png) left top no-repeat;white-space:nowrap;overflow:hidden;}
+.buchoosed ul li a,.buchoosed ul li span{display:inline;float:left;white-space:nowrap;}
+.buchoosed ul li span{padding:0 6px;line-height:20px;*line-height:22px;_line-height:20px;}
+.buchoosed ul li a{width:20px;height:20px;background:url(images/bs-sprite.png) right top no-repeat;overflow:hidden;}
+.buchoosebox .buoptdate{margin-top:10px;}
+.buchoosebox .buoptdate .datechoosebox input{width:150px;}
+.buchoosebox .buoptdate .datechoosebox,.buchoosebox .buoptdate .spaceem{float:left;}
+.buchoosebox .buoptdate .bulb{line-height:26px;}
+/*结果列表*/
+.busmanage .buresultlist{padding-bottom:10px;}
+.busmanage .buresultlist .bfiltercon{height:18px;padding:6px 10px;}
+.busmanage .buresultlist .bfiltercon label{margin-right:10px;}
+.busmanage .buresultlist .bfiltercon label input{margin-right:3px;vertical-align:middle;*margin-right:0;}
+.table-style1 tr th{padding:5px 0;background-color:#deeafb;text-align:center;}
+.table-style1 tr th input{vertical-align:middle;}
+.table-style1 tr td{padding:10px;border-bottom:1px solid #e3e3e3;text-align:center;}
+.table-style1 tr.even td{background-color:#f5f5f5;}
+.busmanage .optfortable{width:100%;overflow:hidden;}
+.busmanage .optfortable .bselectall {float:left;width:18%;}
+.busmanage .optfortable .bselectall label{display:inline;float:left;width:45%;height:18px;padding-top:4px;text-align:center;_padding-top:2px;}
+.busmanage .optfortable .bselectall label input{}
+/**小气泡提示*/
+.bu-poptips{position:absolute;padding:5px 15px;border:1px solid #ffc52a;background-color:#fffacc;line-height:18px;z-index:1;}
+.bu-poptips .parrow{position:absolute;top:-10px;left:50%;margin-left:-6px;color:#ffc52a;}
+.bu-poptips .parrow i{position:absolute;top:1px;left:0;color:#fffacc;}
+/*限价弹框*/
+.btnbox, .winbtnbox{margin-top:20px;text-align:center;}
+table.tipsp{margin:0 auto;}
+table.tipsp tr td.tipsIcon{vertical-align:top;padding-right:10px;text-align:right;}
+table.tipsp tr td.tipsMsg{color:#333;font-weight:700;font-size:14px;line-height:2em;text-align:left;}
+.popcon{padding:20px;}
+.poptreebox .bu-cond-box{border:1px solid #d8dee3;}
+.poptreebox .buchoosebox{padding:10px 0;}
+.poptreebox .buchoosebox .buchoose-con{padding-bottom:10px;line-height:26px;}
+.poptreebox .buchoosebox .buchoose-con .newinput{width:175px;}
+.poptreebox .buchoosebox .buchoosed{line-height:20px;}
+.poptreebox .buchoosebox .bu-poptips{top:33px;left:60px;_left:0;}
+/*修改限价*/
+.modifyprice{}
+.modifyprice table tr td{padding:3px 0;}
+.modifyprice table tr td .newinput{width:140px;}
+.modifyprice table tr td textarea{width:200px;height:72px;padding:5px;border:1px solid #a2a2a2;resize:none;}
+.modifyprice table tr td .limitchar{text-align:right;color:#999;}
+.modifyprice .winbtnbox{margin-top:5px;}
+/*操作记录*/
+.optionhistory .popcon{padding:0 0 10px;}
+.optionhistory .popcon .snPages{position:relative;}
+.optionhistory .popcon  table{float:left;}
+.optionhistory .proinfos{margin-left:10px;line-height:36px;overflow:hidden;}
+.optionhistory .proinfos li{display:inline;float:left;margin-right:60px;}
+
+/*绿色通道商品*/
+.gscond{padding-bottom:10px;line-height:26px;}
+.gscond .datechoosebox,.gscond .spaceem,.gscond .bulb{float:left;}
+.greenchannlepro{height:200px;}
+.greenchannlepro .newxcontent{height:165px;overflow:hidden;}
+.greenchannlepro .g-search-box{height:100%;overflow:hidden;}
+.greenchannlepro .g-search-box  dt{float:left;width:490px;margin-top:50px;margin-left:20px;}
+.greenchannlepro .g-search-box  dt .newinput{width:150px;}
+.greenchannlepro .g-search-box  dt .datechoosebox .newinput{width:140px;}
+.greenchannlepro .g-search-box  dd{display:inline;float:right;width:245px;height:100%;border-left:1px dashed #d8dee3;}
+.busmanage .optfortable .gbselectall label{width:29%;}
+.addnewprowin .popcon{padding-top:0px;}
+.addnewprowin .popcon p{line-height:36px;}
+.addnewprowin .procodetextarea textarea{width:380px;height:360px;padding:5px 10px;}
+
+/*新增联系人*/
+.busmanage  .contactsqob{height:365px;}
+.busmanage .contactscondition{height:365px;}
+.bu-contactsdl dl.dlbox{width:49.9%;}
+.modifycat table tr td{padding-bottom:10px;}
+.modifycat table tr td.fsong{font-family:simsun;}
+.modifycat table tr td .newinput{width:175px;}
+.addnewcat .popcon{padding:10px 15px;}
+.addnewcat .choosedtable{}
+.addnewcat .choosedtable tr td{padding-bottom:10px;}
+.addnewcat .choosedtable tr td .newinput{width:175px;}
+.addnewcat .pop-catchoosed ul{display:none;width:390px;height:auto;max-height:120px;padding:0 5px 5px;border:1px solid #a2a2a2;overflow-y:scroll;}
+
+
+/*新增按钮*/
+.case11,.case11 span{line-height:26px;padding-left:16px;font-size:12px;background:url(images/bs-button.png) left 0;}
+.case11 span{padding-left:0;padding-right:16px;background:url(images/bs-button.png) right 0;}
+.case12,.case12 span{line-height:26px;padding-left:16px;color:#333;font-size:12px;background:url(images/bs-button.png) left -26px;}
+.case12 span{padding-left:0;padding-right:16px;background:url(images/bs-button.png) right -26px;}
+
+.addnewbtn:link,.addnewbtn:visited{display:inline-block;width:125px;height:34px;color:#FFF;font:700 12px/34px Simsun;text-align:center;background:url(images/bs-button.png) left -52px no-repeat; overflow:hidden;}
+.addnewbtn:hover{text-decoration:none;}
+.allexportbtn:link,.allexportbtn:link{display:inline-block;width:125px;height:34px;color:#333;font:700 12px/34px Simsun;text-align:center;background:url(images/bs-button.png) left -88px no-repeat; overflow:hidden;}
+.allexportbtn:hover{text-decoration:none;}
+

@@ -39,7 +39,7 @@ public class admin {
 	@RequestMapping("/to.do")
 	public String home() throws IOException {
 		
-		LOGGER.debug(queryCmmdtyInfoService.queryCmmdtyInfo("000000000", "000000001"));
+//		LOGGER.debug(queryCmmdtyInfoService.queryCmmdtyInfo("000000000", "000000001"));
 		
 		LOGGER.info(restHighLevelClient.getClass());
 		
@@ -58,31 +58,35 @@ public class admin {
 //		restHighLevelClient.update(updateRequest);
 
 		//查
-		GetRequest getRequest = new GetRequest("cmmdtycodes", "cmmdtycode", "1");
-		GetResponse getResponse = restHighLevelClient.get(getRequest);
-		LOGGER.info(getResponse);
-		
-        SearchRequest searchRequest = new SearchRequest();
-        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-        sourceBuilder.query(QueryBuilders.termQuery("type.keyword", "服装"));
-        sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
-        searchRequest.source(sourceBuilder);
-        
-        try {
-        	
-            SearchResponse response = restHighLevelClient.search(searchRequest);
-            Arrays.stream(response.getHits().getHits())
-                    .forEach(i -> {
-                        System.out.println(i.getIndex());
-                        System.out.println(i.getSourceAsMap());
-                        System.out.println(i.getType());
-                    });
-            System.out.println(response.getHits().totalHits);
-            return "hello";
-        } catch (IOException e) {
-            e.printStackTrace();
-            return "hello";
-        }
+//		GetRequest getRequest = new GetRequest("cmmdtycodes", "cmmdtycode", "1");
+//		GetResponse getResponse = restHighLevelClient.get(getRequest);
+//		LOGGER.info(getResponse);
+//		
+//        SearchRequest searchRequest = new SearchRequest();
+//        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+//        sourceBuilder.query(QueryBuilders.termQuery("type.keyword", "服装"));
+//        sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
+//        searchRequest.source(sourceBuilder);
+//        
+//        try {
+//        	
+//            SearchResponse response = restHighLevelClient.search(searchRequest);
+//            Arrays.stream(response.getHits().getHits())
+//                    .forEach(i -> {
+//                        System.out.println(i.getIndex());
+//                        System.out.println(i.getSourceAsMap());
+//                        System.out.println(i.getType());
+//                    });
+//            System.out.println(response.getHits().totalHits);
+//            return "hello";
+//        } catch (IOException e) {
+//            e.printStackTrace();
+            return "approvepage/referencePriceApproveDetails";
+//        }
     
+	}
+	@RequestMapping("/to2.do")
+	public String home2(){
+		return "logQuery/supplyPriceApproveDetails";
 	}
 }

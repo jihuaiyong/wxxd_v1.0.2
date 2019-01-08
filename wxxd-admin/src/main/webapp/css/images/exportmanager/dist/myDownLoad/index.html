@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的导出</title>
+	<link rel="stylesheet" href="../libs/zg/zg.min.css">
+	<link rel="stylesheet" href="../libs/zg/zg-icon.min.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header id="header" class="clearfix">
+		<div class="fr">
+			<label>报表状态</label>
+			<div class="inpBox-right">
+				<select name="" id="" class="zg-form-control">
+					<option value="all">全部</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="inpBox-left">
+			<input type="text" class="zg-form-control">
+			<a href="javascript:;" class="btn-search"><i class="icon-search"></i></a>
+		</div>
+	</header>
+
+	<section id="wrap">
+		<h2 class="tit">我的导出</h2>
+		<table class="zg-table zg-table-striped">
+			<thead>
+				<tr>
+					<th>报表名称</th>
+					<th>导出状态</th>
+					<th>导出请求时间</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>我的报表1</td>
+					<td>任务失败</td>
+					<td>2017-01-21 11:51:00</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>我的报表1</td>
+					<td>成功</td>
+					<td>2017-01-21 11:51:00</td>
+					<td><a href="javascript:;">下载</a></td>
+				</tr>
+				<tr>
+					<td>我的报表1</td>
+					<td>已过期</td>
+					<td>2017-01-21 11:51:00</td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="pageBox">
+			<div class="zg-pagination-info">
+				共76条，每页15条
+			</div>
+			<ul class="zg-pagination">
+				<li><a href="javascript:;">上一页</a></li>
+				<li class="active"><a href="javascript:;">1</a></li>
+				<li><a href="javascript:;">2</a></li>
+				<li class="disabled"><a href="javascript:;">...</a></li>
+				<li><a href="javascript:;">7</a></li>
+				<li><a href="javascript:;">8</a></li>
+				<li><a href="javascript:;">下一页</a></li>
+			</ul>
+			<div class="zg-pagination-info">
+				共8页，到第
+				<div class="inpBox">
+					<input type="text" class="zg-form-control">
+				</div>
+				页
+				<a href="javascript:;" class="button button-default">确定</a>
+			</div>
+		</div>
+		
+	</section>
+</body>
+</html>

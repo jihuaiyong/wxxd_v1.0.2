@@ -1,0 +1,18 @@
+<div class="select-month-single zg-date" ng-click="$event.stopPropagation()">
+    <label class="dateBox">
+        <input type="text" class="zg-form-control preview" value="{{dataShow.now}}" ng-focus="pop.show()">
+        <i class="icon-date-o"></i>
+    </label>
+    <article class="innerPop {{pop_open}}" ng-show="pop.isShow">
+        <div class="year">
+            <a href="javascript:;" class="btn-prev" ng-class="{'disabled': !dataShow.year.canPrev}" ng-click="btn.prev()"><i></i></a>
+            <a href="javascript:;" class="btn-next" ng-class="{'disabled': !dataShow.year.canNext}" ng-click="btn.next()"><i></i></a>
+            <p>{{dataShow.year.value}}</p>
+        </div>
+        <div class="month">
+            <ul>
+                <li ng-repeat="month in dataShow.months" ng-class="{'disabled': month.disabled, 'checked': month.checked}" data-time="{{month.time}}"><p ng-click="!month.disabled && !month.checked && btn.select(month.time)">{{month.value}}</p></li>
+            </ul>
+        </div>
+    </article>
+</div>

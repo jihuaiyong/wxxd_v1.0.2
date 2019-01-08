@@ -1,0 +1,99 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 arial,tahoma,\5b8b\4f53;color:#333;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+em,i{font-style:normal;}
+fieldset,img{border:0;}
+ul,ol{list-style:none;}
+a{color:#333;text-decoration:none;outline:none;}
+img{border:none;}
+textarea{resize:none;}
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-spacing:0;border-collapse:collapse;}
+.hide{display:none!important;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;font-size: 0;}
+.clearfix{zoom:1;}
+.hide-text{text-indent:-100%;overflow:hidden;}
+.fr{float:right;}
+.fl{float:left;}
+
+.block{display:block !important;}
+.db{display:block;}
+.dib{display:inline-block!important;}
+.wb{word-wrap:break-word;word-break:break-all;text-overflow:ellipsis;}
+.of{overflow:hidden;word-wrap:break-word;word-break:break-all;white-space:nowrap;text-overflow:ellipsis;}
+.ofh{overflow: hidden;}
+.pa{position: absolute;}
+.pr{position:relative;}
+.gray6{color:#666!important;}
+.gray9{color:#999!important;}
+
+.ml10{margin-left: 10px!important;}
+.ml20{margin-left: 20px!important;}
+.mr10{margin-right: 10px!important;}
+.mt10{margin-top: 10px!important;}
+.mb10{margin-bottom: 10px!important;}
+.mb20{margin-bottom: 20px!important;}
+.mr25{margin-right: 25px!important;}
+
+.pd-layout{padding:10px!important;}
+.pl10{padding-left: 10px!important;}
+.pr10{padding-right: 10px!important;}
+.pt10{padding-top: 10px!important;}
+.pb10{padding-bottom: 10px!important;}
+.pb30{padding-bottom: 30px!important;}
+.pt30{padding-top:30px!important;}
+.pt20{padding-top:20px!important;}
+.pb20{padding-bottom:20px!important;}
+
+.ptb15{padding-top:15px;padding-bottom:15px;}
+.ptb10{padding-bottom: 10px;padding-top: 10px;}
+.plr15{padding-left:15px;padding-right:15px;}
+
+.text-right{text-align:right!important;}
+.text-left{text-align:left!important;}
+.text-center{text-align:center!important;}
+
+.vertical-top{vertical-align:top!important;}
+
+.no-border{border: 0 none!important;}
+.letter-spacing{display:inline-block;letter-spacing:1em;}
+.yaHei{font-family: "MicroSoft Yahei";}
+/* 分页 */
+.snPages{text-align:right;}
+.snPages a, .snPages span{display:inline-block;position:relative;height:24px; padding:0 10px; border:1px solid #D7D7D7;line-height:24px; vertical-align:middle; margin-left: 2px; margin-right: 2px;}
+.snPages a:hover{color:#0091e5;}
+.snPages .page-split{padding:0 5px; border-color:#fff; font-weight:bold;}
+.snPages span.prev{color:#999;}
+.snPages span.next{color:black;}
+.snPages a.prev, .snPages span.prev{padding-left:17px;}
+.snPages a.next, .snPages span.next{padding-right:17px;}
+.snPages b{position:absolute; top:7px; width:0; height:0; border-width:5px; border-style:solid; border-color:white #999 white white; line-height:0; font-size:0;}
+.snPages a.prev b{left:1px;}
+.snPages span.prev b{left:1px; border-color:white #CCC white white;}
+.snPages a.next b{right:1px; border-color:white white white #999;}
+.snPages span.next b{right:1px; border-color:white white white #CCC;}
+.snPages a.current{border-color:#fff; color:#353535; font-weight:700; cursor:default;}
+.snPages a.current:hover{text-decoration:none;}
+.snPages div{display:inline; line-height:26px; padding-left:20px; margin-right: 5px; }
+.snPages input{width:29px; height:18px; margin:0 4px; padding:3px; border:1px solid #D7D7D7; line-height:18px; text-align:center; vertical-align:middle;}
+.snPages select{width:50px; height:26px; margin:0 4px; padding:3px; border:1px solid #D7D7D7; line-height:18px; vertical-align:middle;}
+.snPages input.pagesubmit{width:50px; height:26px; padding:0; background:#fbfbfb; line-height:26px; _line-height:20px; color:#333; cursor:pointer;}
+
+
+/*验证提示*/
+.tips{margin-left:5px;}
+.tips em{display:inline-block;margin-right:5px;width:16px;height:16px;background:url(images/tipIcon.png) no-repeat;vertical-align:middle;}
+.error-tips em{background-position: -182px -70px;}
+.att-tips em{background-position: -182px -140px;}
+
+
+/*使自适应表格文字不分行，页面缩短后出现滚动条的css方法*/
+table th,table td{word-break:break-all;white-space:nowrap;overflow:hidden;}
+
+
+/*placeholder字体颜色的设置*/
+::-webkit-input-placeholder { color:#999; }
+::-moz-placeholder { color:#999; }
+:-ms-input-placeholder { color:#999; }
+

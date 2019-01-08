@@ -1,0 +1,11 @@
+.pop-up_layer{*top:80px !important;top: 100px;width:548px;margin-left:-274px;display:none;}
+#hotForm table{width:300px;}
+#hotForm table tr{height:50px;}
+#hotForm table td{width:100px;height:30px;text-align:center;}
+#hotForm table td .but{width:90px;height:26px;line-height:26px;border:1px solid #CACACA;background:#fff; color:#0088CC;border-radius:4px;
+-moz-border-radius:4px;-webkit-border-radius:4px; }
+#hotForm table td .but:hover{width:90px;height:26px;line-height:26px;border:1px solid #f57118;background:#ff7a21;color:#fff;border-radius:4px;
+-moz-border-radius:4px;-webkit-border-radius:4px;}
+#hotForm table td div{float:left;margin-left:48px; cursor:pointer;}
+.sel{float:left; width:60px;height:30px;line-height:22px;}
+.selInfo{height:25px;margin-left: 5px; *margin-left: 0px; width: 143px; *width: 128px !important;}

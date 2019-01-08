@@ -1,0 +1,245 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body{
+	font-family: "微软雅黑","Microsoft YaHei", "Lucida Grande", Helvetica, Arial, sans-serif;
+	height: 100%;
+	overflow: hidden;
+	min-width: 1240px;
+/* 	background: #EBEBEB; */
+    background: #FFF;
+}
+ul,li{
+	list-style: none;
+}
+.l {
+    float: left!important;
+}
+header{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	/*background-color: #2d86e1;*/
+	z-index: 2;
+}
+header > .contentH{
+	/*width: 1240px;*/
+	width: 100%;
+	height: 60px;
+	line-height: 23px;
+	margin: 0 auto;
+	/*background: url(images/test2.gif);
+	background: #2D86E1;
+	background: #3d968a;
+	background: #f8b500;*/
+    position: relative;
+}
+.admin-name{
+    font-size: 14px;
+    position: absolute;
+    right: 25px;
+    color: #fff;
+    margin-top: -11px;
+}
+.portal-logo{
+/* 	line-height: 34px; */
+	margin-top: 16px;
+    margin-left: 10px;
+    color: #fff;
+}
+.outWrap{
+	width: 1200px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav{
+	width: 13%;
+	position: absolute;
+	top: 65px;
+	left: 0;
+	bottom: 0;
+/* 	background-color: #495061; */
+    background-color: #434F5B;
+	overflow: auto;
+}
+nav::-webkit-scrollbar {
+    width: 6px; 
+}
+nav::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+nav::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1; 
+    border-radius: 2px;
+}
+nav::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.1); 
+}
+.tab-main-m {
+	height: 70px;
+    overflow: hidden;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+}
+.tab-main-m .item {
+    display: inline-block;
+    padding: 0px 18px;
+    line-height: 70px;
+    height: 70px;
+    color: #fff;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    cursor: pointer;
+}
+.tab-main-m .item.setting{
+	font-size: 18px;
+	vertical-align: top;
+}
+.tab-main-m .item:hover, .tab-main-m .item.active {
+    background-color: #2878ca;
+}
+.sidebar {
+    /*width: 160px;*/
+    font-size: 14px;
+    -webkit-user-select: none;
+    user-select: none;
+    padding-left: 10px;
+}
+.sidebar > ul > li{
+    padding-left: 20px;
+}
+.sidebar ul > li > a > i:not(.fu-right){
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 21px;
+    font-size: 14px;
+}
+.sidebar ul a {
+    line-height: 53px;
+    color: #fff;
+    padding: 0;
+/*     background-color: #495061; */
+     background-color: #434F5B;
+    text-decoration: none;
+}
+.sidebar ul a .fu-right{
+    float: right;
+    position: relative;
+    top: 22px;
+    right: 14px;
+}
+.sidebar ul ul a {
+/*     color: #d88f41; */
+       color: #fff;      
+}
+.sidebar .nav .nav li.active {
+    border-right:2px solid #2d86e1;
+    
+}
+.sidebar .nav .nav li.active span{
+    color: #2d86e1;
+}
+/*.sidebar .nav .nav{
+    padding-left: 15%;
+}*/
+.sidebar .nav .nav span {
+	/*margin-left:24px;
+    width: 99px;
+    border-right: 2px solid #fff;*/
+    font-size: 13px;
+}
+.active .nav {
+    display: block;
+}
+.sidebar ul ul {
+    display: none;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.sidebar span.text-ellipsis {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    margin-left: 12px;
+    width: 70%;
+}
+.sidebar ul .icon-pic {
+    vertical-align: middle;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sidebar .nav > .active .fu-right {
+    transform: rotate(90deg);
+}
+.sidebar .nav .fu-right {
+    transition: transform .3s;
+}
+.sidebar ul .fu {
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+}
+#wrap{
+	height: 100%;
+	/*width: 1240px;*/
+	width: 100%;
+	padding:65px 0 0 0;
+	/*overflow: hidden;*/
+	/*background-color: #EBEBEB;*/
+	/*background-color: #716c6c;*/
+    position: relative;
+    margin: -5px auto;
+}
+#wrap .iframeBox{
+	position: absolute;
+    width: 105%;
+    height: 92%;
+    left:13%;
+    overflow: auto;
+/*     overflow-x: hidden; */
+/*     overflow-y: auto; */
+}
+
+#iframeH{
+	width: 100%;
+	height: 95%;
+    overflow: auto;
+}
+
+
+.nav > li > a:hover {
+    color: #2d86e1;
+    background-color: #fff;
+    cursor: pointer;
+}
+.nav > li > a:focus{
+    background-color: #2d86e1;
+}
+
+#zg-logout{
+	color: #fff;	
+}

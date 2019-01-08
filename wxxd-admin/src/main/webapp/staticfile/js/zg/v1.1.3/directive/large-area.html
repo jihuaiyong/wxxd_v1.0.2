@@ -1,0 +1,73 @@
+<div class="select-large-area" ng-click="$event.stopPropagation()">
+    <label>
+        <input type="text" class="zg-form-control" value="{{word_preview}}" ng-focus="pop.focusFn()">
+        <i class="icon-caret-down"></i>
+    </label>
+    <article class="innerPop {{pop.opens}}" ng-show="pop.isShow">
+        <div class="quickly">
+            <div class="inpItem">
+                <label ng-click="pop.choise('all', '全部')">
+                    <input type="radio" value="all" ng-model="checked_area">
+                    <span>全部</span>                    
+                </label>
+            </div>
+            <div class="inpItem">
+                <label ng-click="pop.choise('excludeHongkong', '除香港外全部大区')">
+                    <input type="radio" value="excludeHongkong" ng-model="checked_area">
+                    <span>除香港外全部大区</span>
+                </label>
+            </div>
+        </div>
+        <div class="list">
+            <ul class="list-nav">
+                <li ng-class="{'active': tab.value == 'bcdfg'}" ng-mouseover="tab.change('bcdfg')"><p>BCDFG</p></li>
+                <li ng-class="{'active': tab.value == 'hjkln'}" ng-mouseover="tab.change('hjkln')"><p>HJKLN</p></li>
+                <li ng-class="{'active': tab.value == 'pqst'}" ng-mouseover="tab.change('pqst')"><p>PQST</p></li>
+                <li ng-class="{'active': tab.value == 'wx'}" ng-mouseover="tab.change('wx')"><p>WX</p></li>
+                <li ng-class="{'active': tab.value == 'yz'}" ng-mouseover="tab.change('yz')"><p>YZ</p></li>
+            </ul>
+            <ul class="list-con">
+                <li ng-class="{'active': tab.value == 'bcdfg'}">
+                    <div class="inpItem">
+                        <label ng-click="pop.choise('beijing', '北京')">
+                            <input type="radio" value="beijing" ng-model="checked_area">
+                            <span>北京</span>
+                        </label>
+                    </div>
+                </li>
+                <li ng-class="{'active': tab.value == 'hjkln'}">
+                    <div class="inpItem">
+                        <label ng-click="pop.choise('nanjing', '南京')">
+                            <input type="radio" value="nanjing" ng-model="checked_area">
+                            <span>南京</span>
+                        </label>
+                    </div>
+                </li>
+                <li ng-class="{'active': tab.value == 'pqst'}">
+                    <div class="inpItem">
+                        <label ng-click="pop.choise('shanghai', '上海')">
+                            <input type="radio" value="shanghai" ng-model="checked_area">
+                            <span>上海</span>
+                        </label>
+                    </div>
+                </li>
+                <li ng-class="{'active': tab.value == 'wx'}">
+                    <div class="inpItem">
+                        <label ng-click="pop.choise('wuhan', '武汉')">
+                            <input type="radio" value="wuhan" ng-model="checked_area">
+                            <span>武汉</span>
+                        </label>
+                    </div>
+                </li>
+                <li ng-class="{'active': tab.value == 'yz'}">
+                    <div class="inpItem">
+                        <label ng-click="pop.choise('zhengzhou', '郑州')">
+                            <input type="radio" value="zhengzhou" ng-model="checked_area">
+                            <span>郑州</span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </article>
+</div>

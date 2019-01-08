@@ -1,0 +1,92 @@
+.xuan{position:fixed;_position:absolute;right:16px;top:250px;z-index:10; width: 487px;}
+
+/* 20131212 在线客服 悬浮框  */
+.z-sidebar{float: right;}
+.z-sidebar li{width:44px;height:44px;margin:0 0 5px;border:1px solid #d3d3d3;line-height:14px;text-align:center;overflow:hidden; cursor: pointer;}
+.z-sidebar li .number{width: 19px; height: 19px; line-height: 19px; position: absolute;top: -7px;
+           right: -9px; color: #fff; font-weight: bold; text-align: center; z-index: 100000;}
+.z-sidebar li a{display:block; text-decoration: none; color: #fff;width: 35px; height: 30px; margin:8px 0px 0px 4px; font-weight: bold;}
+.z-sidebar .sidebar1{background:#fff url("images/question.png") no-repeat center center;  text-align: center;}
+.z-sidebar .olserver{background:#fff url(images/am.gif) no-repeat center center; text-align: center;}
+.z-sidebar .sercenter a{background:#fff;padding:7px 9px;}
+.z-sidebar .sercenter a:hover{text-decoration:none;}
+.z-sidebar .gototop{display:none;background-position:0 -44px;}
+
+.op_div{width: 440px; padding-bottom: 18px; border: 1px solid #D7D7D7; position: absolute; z-index: 99999;  background: #fff; display: none;}
+.op_div .op_head{width: 100%; height: 31px; line-height: 31px; background: url("images/alert-bg.png"); border-bottom: 1px solid #D7D7D7; }
+.op_div .op_head span{font-size: 14px; font-weight: bold; color: #333; margin-left: 15px;}
+.op_div .op_head div{width: 20px; height: 20px; float: right; margin: 5px 15px 0px 0px;}
+.op_div .op_head div:hover{background: #D7D7D7;}
+.op_div .op_head em{ background:url(images/delBtn.png) no-repeat;display:block; width:11px; height:12px;cursor:pointer; margin:5px 0px 0px 4px;}
+
+.op_div ul{font-size: 12px; }
+.op_div .op_u1{display: block;}
+.op_div ul li{float: left;}
+.op_div .upload{width: 310px; height: 100px; border: 1px solid #F6A81C; display: none; z-index: 10000; position: absolute; background: #FFFFF0; *top: 160px !important; top: 120px; left:  65px; float: left;}
+.op_div .upload .upload_close{background: url("images/myOpinion.png") 8px 0px; cursor: pointer; width: 8px; height: 8px; display: block; top: 10px; right: 10px; position: absolute; z-index: 100;}
+.op_div .upload .upload_img{background: url("images/myOpinion.png") -176px -29px ; width: 24px; height: 24px; display: block; top: 20px; left: 20px; position: absolute; z-index: 100;}
+.op_div .upload .upload_error{font-weight: bold; width: 115px; text-align: right; margin-top: 23px; font-size: 14px; color: #333; float: left; cursor: pointer;}
+.op_div .upload .upload_context{font-size: 12px; color: #333;width: 240px; margin: 4px 0px 0px 56px; float: left;}
+
+.op_div .op_info{width: 100%; float: left;}
+.op_div .op_info {margin: 20px 0px 15px 0px; height: 26px; width: 100%;}
+.op_div .op_info .op_com{height: 26px; line-height: 26px;}
+.op_div .op_info span{margin-top: 4px; float: left;}
+
+.op_div .red{height: 4px; width: 5px; float: left;color: red;}
+.op_div .op_info  .red1{margin:7px 5px 0px 10px; }
+
+.op_div .op_info  select{border: 1px solid #CACACA;padding: 3px;width: 130px;vertical-align:middle; float: left;padding:3px 2px;}
+.op_div .op_info  .message{float: right;width: 51px;  text-align: left; margin-right: 50px;}
+.op_div .op_info  .message .pcom{ float: left;  font-weight: bold; color: #EF1414;}
+.op_div .op_info  .message .p0{width: 30px; float: left;  color: #3377CC; }
+.op_div .op_info  .message .p0:hover{text-decoration: underline; color: #F60; cursor: pointer;}
+.op_div .op_info  .message .m1{width: 5px;}
+.op_div .op_info  .message .m2{width: 10px; text-align: center;line-height: 28px;  cursor: pointer;}
+.op_div .op_info  .message .m3{padding-left: 2px;}
+
+.op_div ul .op_l2 textarea{width: 398px; height: 133px;border: 1px solid #CACACA; resize: none; padding: 5px 5px 5px 5px; }
+.op_div ul .op_l2 span{float: right;  font-family: "宋体,Arial"; width: 100px;}
+.op_div ul .op_l2 .red2{margin:54px 5px 0px 10px; }
+.op_div ul .op_l2 span .op_foot1{width: 40px; float: left; text-align: right; padding-right: 1px; color:#999;}
+.op_div ul .op_l2 span .op_foot2{width: 51px; float: right; text-align: left; padding-left: 1px;  color:#EF1414; }
+.op_div ul .op_l2 span .op_foot3{width: 7px; float:left;color:#999;}
+
+.op_div ul .op_l3{height: 26px;  width: 100%; margin: 5px 0px 10px 0px;}
+
+.op_div ul .op_l3 .op_l3_text{width: 100px; height: 26px; line-height: 26px; margin-left: 20px;}
+.op_div ul .op_l3 .img1{margin-left: 17px;}
+.op_div ul .op_l3 .img2{margin-left: 10px;}
+.op_div ul .op_l3 .img_del{margin-left: 5px; height: 10px; }
+
+.op_div ul .op_l4{padding-left: 20px;}
+.op_div ul .op_l4 input{width: 398px; height: 26px; line-height: 26px; border: 1px solid #D7D7D7; margin-top: 10px; color: #999; font-size: 12px; padding-left: 5px; font-family: '宋体'}
+.op_div ul .op_l5{margin-top: 20px;}
+.op_div ul  .op_btnCom{ width: 80px; height: 34px; line-height: 34px; float: left; cursor: pointer;  text-align: center;  font-size: 14px; font-weight: bold;}
+.op_div ul  .op_btnOne{background: url("images/myOpinion.png") 136px 0px; color: #fff; margin-left: 138px;}
+.op_div ul  .op_btnTwo{background: url("images/myOpinion.png") 136px -38px; color: #434343; margin-left: 5px;}
+
+.op_div .op_u2{margin-left: 20px; display: none;}
+.op_div .op_u2 li{margin-bottom: 1px;}
+.op_div .op_u2 .op_mess{float: left;}
+.op_div .op_u2 .op_mess .op_mess_title{width: 50px; height: 50px; border: 1px solid #C1DAF3; background: #F6F9FC; text-align: center;}
+.op_div .op_u2 .op_mess .op_mess_title img{margin-top: 10px;}
+.op_div .op_u2 .tu{width: 10px; height: 133px; background: url("images/myOpinion.png") 0px -29px; float: left;margin: 0px 5px 0px 5px; border: 0px;}
+.op_div .op_u2 .mess_context{width: 328px; border: 1px solid #C1DAF3; padding-bottom:7px; float: left;}
+.op_div .op_u2 .mess_context .mess_head{width: 100%; float: left;}
+.op_div .op_u2 .mess_context .mess_head .txt{font-weight: bold; color: #666; float: left; margin:5px 0px 0px 10px;}
+.op_div .op_u2 .mess_context .mess_head .m_img{float: right;background: url("images/myOpinion.png") 16px -10px; cursor: pointer; width: 16px; height: 16px;
+                           position: relative; right: -8px; top: -9px; z-index: 10000; display: none;}
+.op_div .op_u2 .mess_context .mcontext{width: 308px; float: left; font-size: 12px; color: #656565; margin: 5px 0px 0px 5px;  padding:0px 0px 0px 5px;}
+.op_div .op_u2 .mess_context .mcontext_bottom{border-bottom: 1px dashed #ccc;  padding:0px 0px 7px 5px;}
+.op_div .op_u2 .mess_context .mcontext .atxt{color: #666;}
+.op_div .op_u2 .mess_context .mcontext .atxt:hover{text-decoration: none;}
+.op_div .op_u2 .mess_context .mcontext .ahref{margin-left: 2px;}
+.op_div .op_u2 .li3{width: 100%;}
+.op_div .op_u2 .li3 .li3_page{margin-right: 14px;}
+.op_div .op_u3{display: none;}
+.op_div .op_u3 .op_submit{width: 398px; height: 66px; float: left; border: 1px solid #99CC99; background: #F0FFF0; margin: 100px 0px 0px 20px;}
+.op_div .op_u3 .op_submit em{background: url("images/myOpinion.png") 24px -55px; width: 24px; height: 24px; display: block; margin: 20px 0px 0px 110px; float: left;}
+.op_div .op_u3 .op_submit p{width: 200px;float: left; margin: 23px 0px 0px 5px; font-weight: bold;}
+.op_div .op_u3 .u3_btnTwo{background: url("images/myOpinion.png") 136px -38px; color: #434343; text-align: center; margin: 110px 0px 0px 180px;}
+#jianyi{cursor: pointer;}

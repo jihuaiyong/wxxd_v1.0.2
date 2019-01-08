@@ -1,0 +1,124 @@
+/*批量输入组件样式  */   
+.zg-inpMany>.zg-form-control {
+	padding-top: 3px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    padding-right: 30px;
+} 
+   .zg-form-control{
+    	display: block;
+    	width: 100%;
+   	 	height: 25px;
+    	padding: 6px 10px;
+    	line-height: 1.666;
+    	color: #000;
+    	background-color: #fff;
+    	border: 1px solid #d2d2d2;
+    	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    .zg-inpMany>.inpArea>textarea {
+    	width: 100%;
+    	resize: none;
+    	border: none;
+    	padding: 0 10px;
+    	margin: 6px 0;
+    	outline: 0;
+    	font-size: 12px;
+    	line-height: 1.8;
+       }
+   .zg-inpMany>i {
+		position: absolute;
+		right: 10px;
+		top: 7px;
+		font-size: 16px
+}
+   .zg-inpMany>.inpArea.active {
+		display: block
+		}
+    .zg-inpMany>.inpArea>.btnBox>.button {
+    	margin-right: 10px;
+		}
+.zg-inpMany>.inpArea>.btnBox {
+	text-align: center;
+	padding-top: 10px
+}
+.zg-inpMany>.inpArea>.btnBox>.button:last-child {
+	margin-right: 0
+}
+.button.button-primary {
+    color: #fff;
+    background-color: #2D86E1;
+    border-color: #2D86E1;
+}
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.button, .zg-form-control {
+    font-size: 12px;
+    background-image: none;
+}
+.button, label {
+    font-weight: 400;
+}
+.button, .button:focus, .button:hover {
+    text-decoration: none;
+}
+.zg-inpMany{
+	position: relative
+}
+.zg-inpMany>.icon-development-tool {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    }
+.zg-inpMany>.inpArea {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color: #fff;
+	padding-bottom: 10px;
+	border: 1px solid #d2d2d2;
+	margin-top: -1px;
+	display: none;
+	z-index: 3001
+}
+@font-face {
+    font-family: icomoon;
+    src: url(../fonts/icomoon.eot?9ydvnn);
+    src: url(../fonts/icomoon.eot?9ydvnn#iefix) format("embedded-opentype"),url(../fonts/icomoon.ttf?9ydvnn) format("truetype"),url(../fonts/icomoon.woff?9ydvnn) format("woff"),url(../fonts/icomoon.svg?9ydvnn#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" icon-"],[class^=icon-] {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}   
+.icon-development-tool:before {
+	content: "\e956"
+} 

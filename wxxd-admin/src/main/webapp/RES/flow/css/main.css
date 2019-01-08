@@ -1,0 +1,72 @@
+select{width:160px;}
+.input-short{width:100px;}
+.input-wrap label{padding-left:5px;}
+.file-span,
+.look-span{width:70px;height:28px;display: block;position: relative;overflow: hidden;float: left;margin-left: 10px;}
+.file-span input[type=file]{width:70px;height:28px;background-color: transparent;opacity: 0; filter: Alpha(Opacity=0);position: absolute;left: 0;top:0;}
+.file-span a,
+.look-span a{width:70px;height: 28px;display: block;background-color: #6697C6;text-align: center;line-height: 28px;color:#fff;font-size: 12px;}
+.remark{width:90%;padding:5px; line-height: 15px;top:19px;position: relative;top:7px;}
+table p{
+    padding:10px;color: #333; line-height: 20px;   background: #f8fcfc;color:#6697C6}
+.input-short-span{width:auto;float: left;}
+.input-short-span .input-short{width:98%;}
+.file-span-span input[type=file]{top:5px;left: 10px;}
+.file-span-span{height: auto;width:auto;}
+.file-span-span a{margin-top:5px;margin-left: 10px;}
+.yel-btn{    background: #6697C6;}
+.yel-btn:hover{ background: #6697C6;}
+.date-input2{width:228px;}
+.layout-table .mr2,
+.layout-table .mr3{display: none;}
+.layui-layer-rim .aircraftcont{width:500px;padding: 20px 0 0 0;text-align :left;}
+.layui-layer-rim .aircraftcont p{line-height: 18px;padding-top: 10px;}
+.layui-layer-rim .aircraftcont p:first-child{padding-bottom: 20px;padding-top: 0;}
+.layui-layer-title{color:#fff;}
+.layui-layer-btn {text-align: center;padding: 20px 10px;pointer-events: auto;}
+.aircraftcont-tr .input-wrap b{width:60px;display:block;float:right;margin-top:2px;text-align:center;height: 30px;line-height:30px;    background: #6697C6;color:#fff;cursor: pointer;}
+
+/*修改乘坐人姓名*/
+.updatename{width:390px;}
+.updatename .updatename-bt{line-height: 20px;padding-top: 10px;padding-bottom: 10px;text-align: left;}
+.aircraftcont-tr{display: none;}
+.aircraftcont-tr .file-span,.aircraftcont-tr .look-span{margin-top: 5px;margin-bottom: 5px;margin-left: 0;}
+
+.kucity {z-index: 9999;background-color: #fff;}
+.kucity .kucity_nav li.active {background-color: #6697C6;border-color: #6697C6;}
+.kucity_item dd span:hover {color: #6697C6;  text-decoration: underline;}
+.kucity_item dt {color: #6697C6;}
+
+.checkbox-tr-infor-first,
+.checkbox-tr-infor{display: none;}
+.block-top-btn2 {  margin-bottom: 10px;  text-align: right;  }
+.layout-table .tho{background-color: transparent;}
+.other-total{height: 30px;margin-top:-30px;padding-left: 10px;line-height: 30px;font-size: 14px;}
+.other-total strong{font-weight: 400;}
+.other-total strong:first-child{font-weight: 700;padding: 0 10px;color:#FD0000;}
+
+.fixed-btns a{margin-right: 0;margin-left: 20px;}
+.fixed-btns a:first-child{margin-left: 0;}
+
+.active .normal-input {border: 1px solid #6697C6;}
+.error .normal-input {border: 1px solid red;}
+.valid_message{color:red;}
+
+.layui-layer-btn .layui-layer-btn0 {
+    border-color: #ddd;
+    background-color: #6697c6;
+    color: #fff;
+}
+.layui-layer-btn a {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 10px;
+    padding: 0 15px;
+    border: 0px solid #6697C6;
+    background-color: #6697c6;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}

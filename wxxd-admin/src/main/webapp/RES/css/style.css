@@ -1,0 +1,749 @@
+/* 通用页面样式*/
+body{
+	font-size:12px;
+	font-family:"新宋体",Arial, Helvetica, sans-serif;
+	SCROLLBAR-FACE-COLOR: #dee3e7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #dee3e7;
+	SCROLLBAR-3DLIGHT-COLOR: #d1d7dc;
+	SCROLLBAR-ARROW-COLOR: #006699;
+	SCROLLBAR-TRACK-COLOR: #efefef;	
+	SCROLLBAR-DARKSHADOW-COLOR: #98aab1;
+	text-align:center;     
+}
+TD.{font-size:12px;}
+
+INPUT {
+	border:1px solid #B5CBE2;
+	font-size:12px;
+	background-color:#FFFFFF;
+	height:20px;
+	color:#333333;
+}
+INPUT.checkbox{	border:0px;}
+INPUT.checkbox1{border:0px;height:15px;width:15px}
+INPUT.radio{border:1px solid #B5CBE0;}
+TEXTAREA {
+	font-size:12px;
+	border:1px solid #cccccc;
+}
+SELECT {
+	font-size:12px;
+	border:1px solid #666666;
+	background-color:#efefef;
+        color:#004488;
+}
+
+A {
+	COLOR:#0000B7; 
+	TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #0000B7; 
+	TEXT-DECORATION: none;
+}
+A:active{
+	COLOR: #ff00B7; 
+	TEXT-DECORATION: none;
+}
+A:hover {
+	COLOR: #ff0000; 
+	TEXT-DECORATION:underline;
+}
+A:link {
+	COLOR: #000088; 
+	TEXT-DECORATION: none;
+}
+
+/*有下划线的热连*/
+A.a_normal {
+	COLOR:#0000B7; 
+	TEXT-DECORATION:underline;	
+	cursor:hand;
+}
+A.a_normal:visited {
+	COLOR: #0000B7; 
+	TEXT-DECORATION:underline;	
+}
+A.a_normal:active{
+	COLOR: #ff00B7; 
+	TEXT-DECORATION:underline;	
+}
+A.a_normal:hover {
+	COLOR: #ff0000; 
+	TEXT-DECORATION:underline;
+}
+A.a_normal:link {
+	COLOR: #000088; 
+	TEXT-DECORATION:underline;
+}
+
+/*星号红色*/
+.tshowred{color:#FF0000}
+/*左边FRAME上 菜单TD的样式*/
+TD.l_menu1{
+	padding-left:10px;
+	height:25px;
+}
+.button_2max {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-image: url(../image/workflow/button_2max.gif);
+	height: 30px;
+	width: 51px;
+	border: none;
+	padding: 0;
+
+}
+
+.button_2 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-image: url(../image/workflow/button_2.gif);
+	height: 22px;
+	width: 53px;
+	border: none;
+	padding: 0;
+
+}
+.button_2m {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-image: url(../image/workflow/button_2m.gif);
+	height: 23px;
+	width: 69px;
+	border: none;
+	padding: 0;
+
+}
+.button_4 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px 5px 0 0;
+	background-image: url(../image/workflow/button_4.gif);
+	height: 20px;
+	width: 71px;
+	border: none;
+	padding: 0;
+}
+.button_6 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-image: url(../image/workflow/button_6.gif);
+	height: 20px;
+	width: 91px;
+	border: none;
+	padding: 0;
+
+}
+.button_8 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: repeat;
+	margin: 0px;
+	background-image: url(../image/workflow/button_8.gif);
+	height: 20px;
+	width: 141px;
+	border: none;
+	padding: 0;
+
+}
+
+/*列表样式*/
+.content_normal {
+	color: #1D404E;
+	font-size: 12px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	line-height: 16px;
+	font-style: normal;
+	font-variant: normal;
+	word-spacing: normal;
+	white-space: normal;
+	text-decoration: none;
+}
+/*列表样式*/
+.content_normal1 {
+	color: #004488;
+	font-size: 12px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	line-height: 16px;
+	font-style: normal;
+	font-variant: normal;
+	word-spacing: normal;
+	white-space: normal;
+	text-decoration: none;
+	border:1px solid #D6E6F5;        	
+}
+.table_bg {
+	height: 25px;
+	width: 100%;
+	border: 0px;
+	color:#ffffff;
+	background-color:#487CAE;
+    text-align: center;
+}
+.table_color_1 {
+	background-color: #EDF2F6;
+}
+.table_color_3 {
+	background-color: #DCDCDC;
+}
+
+/*显示表单 标题*/
+.ftitle{
+	font-family:"宋体";
+	font-size:16px;
+	font-weight:bold;
+	height:38px;
+        line-height:38px;
+	background:url(../image/workflow/ftitle_bg.gif) no-repeat;
+	width:800px;
+	color:#FFFFFF;
+	margin-top:3px;
+	margin-bottom:5px;
+}
+
+table.showinfotb{
+        width:804px;
+	height:36px;
+}
+/*表单的输入框*/
+.form {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #B5CBE2;
+	float: none;
+	line-height: 12px;
+}
+.form2 {
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #B5CBE2;
+	float: none;
+	line-height: 12px;
+}
+/*数字及货币输入框*/
+.formInNum{
+	ime-mode:disabled;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	float: none;
+	line-height: 12px;	
+}
+/*表单输入框读状态*/
+.form_read{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	float: none;
+	line-height: 18px;	
+}
+/*货币输入，右对齐*/
+.formNum{
+	ime-mode:disabled;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	float: none;
+	line-height: 12px;
+	text-align:right;
+}
+/* 等待计算的数值*/
+.formtxt{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #ff0000;
+	background-color: #FFFFFF;
+	float: none;
+	line-height: 18px;
+	border:1px solid #ffffff;
+	border-bottom:1px solid #cccccc;
+}
+.formtxt2{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: black;
+	background-color: #FFFFFF;
+	float: none;
+	line-height: 18px;
+	border:1px solid #ffffff;
+	border-bottom:1px solid #cccccc;
+}
+/*输入，显示下划线*/
+.formUline{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #ff0000;
+	background-color: #FFFFFF;
+	float: none;
+	line-height: 12px;
+	border:1px solid #ffffff;
+	border-bottom:1px solid #999999;
+}
+/*等待选择输入的框，从弹出窗内选择内容填充*/
+.formwaitsel{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #ff0000;
+	background-color: #FFFFFF;
+	float: none;
+	line-height: 12px;
+	border:1px solid #cccccc;
+}
+.formonlyread{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #ff0000;
+	background-color: #FFFFFF;
+	float: none;
+	line-height: 12px;
+	border:1px solid #ffffff;	
+}
+/*最左边 上面固定表格单元背景*/
+TD.lshowtd{	background-color:#EDF2F6;}
+/*最当中 上面固定表格单元背景*/
+TD.lshowtd_l{
+        padding-left:8px;
+	background-color:#EDF2F6;
+	
+	}
+/*最左边 上面固定表格警示信息单元背景*/
+TD.mainWarnTd{	background-color:#CDD5E7;
+color: red
+}
+/*最当中 上面固定表格警示信息单元背景*/
+TD.mainWarnTd_l{
+	background-color:#CDD5E7;
+	color: red;
+	padding-left:2px;
+	border-left:1px solid #6372B7;}
+	
+/*下面左边有蓝线分割 单元格*/
+TD.l_line{
+	padding-left:2px;
+	
+}
+/*子表提示信息 单元格*/
+TD.zlshowtd{background-color:#efefef}
+/*子表提示信息 单元格 -- 左边有兰色分割线*/
+TD.zlshowtd_l{
+	background-color:#efefef;
+	padding-left:2px;
+	border-left:1px solid #6372B7;}
+/*子表警告信息 单元格*/
+TD.warntd{
+	background-color: #efefef;
+	color: red}
+/*子表警告信息 单元格 -- 左边有兰色分割线*/
+TD.warntd_l{
+	background-color:#efefef;
+	color: red;
+	padding-left:2px;
+	border-left:1px solid #6372B7;}
+/*下划线*/
+TD.b_line{
+	background-image:url(../image/workflow/i_line_1.gif)
+}
+
+input.but_exp{
+	height:16px;
+	width:16px;
+        border:none;
+	background-image:url(../img/descsort.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+input.but_col{
+	background-color:#E1E5F0;
+	border:1px solid #E1E5F0;
+	height:16px;
+	widows:16px;
+	background-image:url(../img/ascsort.gif);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.icon{
+	background-image:url(../img/i_arrow_4.gif);
+	width:16px;
+	background-repeat:no-repeat
+}
+.showErrorMessage{
+	font-size:14px;
+}
+.showErrorMessageOK{
+	background-image:url(../img/standard_msg_ok.gif);
+	width:20px;
+	height:16px;
+	background-repeat:no-repeat;
+}
+.showErrorMessageNO{
+	background-image:url(../img/standard_msg_error.gif);
+	width:20px;
+	height:16px;
+	background-repeat:no-repeat;	
+}
+TD.table_tit {
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	/* color: #ffffff; */
+	font-weight:bold;
+	/* background-image: url(../img/table_tit_back.jpg); */
+	background-position: left center;
+	height: 28px;
+	vertical-align:middle;
+	text-align:center;
+}
+TD.table_new {
+	font-size: 12px;
+	font-weight:bold;
+	/* background-image: url(../img/table_tit_back.jpg); */
+	background-position: left center;
+	height: 28px;
+	vertical-align:middle;
+	text-align:center;
+}
+TD.table_tit1 {
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	color: #ffffff;
+	font-weight:bold;
+	height: 26px;
+	vertical-align:middle;
+}
+TD.listmain{
+	background-color:#efefef;
+	height:25px;
+	cursor:hand;
+}
+TD.menuonselect{
+	color:#ffffff;
+	font-weight:bold;
+	background:#2868A3;
+	height:24px;
+	text-align:center;
+	vertical-align:middle;
+	cursor:hand;
+}
+TD.menu{
+	color:#ffffff;
+	font-weight:bold;
+	height:28px;
+	text-align:center;
+	vertical-align:middle;
+	cursor:hand;
+}
+
+TD.menul{
+	background-image:url(../img/menutb_l.gif);
+}
+/*列表中显示 货币的TD样式*/
+TD.tdlistmoney{
+	padding-right:10px;
+
+}
+
+.inputQuery {
+	width: 22px;
+	height: 21px;
+	cursor: hand;
+	border: 1px solid #999999;
+	background: url(../img/query.gif) no-repeat center bottom #FFFFFF;
+}
+
+.treeQuery {
+	width: 22px;
+	cursor: hand;
+	height: 21px;
+	border: 1px solid #999999;
+	background: url(../img/search.jpg) no-repeat center bottom #FFFFFF;
+}
+
+
+/*石晓伟添加*/
+
+.mainDiv
+{
+  width:60px;
+}
+.topItem
+{
+  font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-image: url(../img/button_2.gif);
+	height: 22px;
+	width: 51px;
+	border: none;
+	padding: 0; 
+ 
+}
+
+
+.dropMenu
+{
+  background:white;
+  border-top:1px solid #467BF2;
+  border-left:1px solid #92B1F8;
+  border-right:1px solid #92B1F8;
+  border-bottom:1px solid #92B1F8;
+}
+
+.subMenu
+{
+   display:none;
+}
+.subItem
+{
+   padding-left:5px;
+   cursor:pointer;
+   text-decoration:none;
+   color:black;
+}
+
+.subItem a
+{
+   text-decoration:none;
+   color:black;
+}
+
+.subItemOver
+{
+   cursor:pointer;
+   color:blue;
+   text-decoration:underline;
+   padding-left:5px;
+}
+
+.subItemOver  a
+{
+   color:blue;
+}
+
+
+.drop
+{
+   border-left:1px solid black;
+   border-right:1px solid black;	
+}
+
+.even1 {
+		 font-size: 12px; color: #000000; text-decoration: none; 
+		 font-family: "Arial", "Helvetica", "sans-serif";
+		 background-color:  #99FFCC;
+		 style:word-wrap:break-word;word-break:break-all;
+		 height:25;
+	}
+	
+.odd1 {
+		 font-size: 12px; color: #000000; text-decoration: none; 
+		 font-family: "Arial", "Helvetica", "sans-serif";
+		 background-color: #FFFFFF;
+		 style:word-wrap:break-word;word-break:break-all;
+		 height:25;
+}
+
+
+.inputPerson {
+	width: 22px;
+	height: 21px;
+	cursor: hand;
+	border: 1px solid #999999;
+	background: url(../img/vcard.png) no-repeat center bottom #FFFFFF;
+}
+
+
+
+
+
+
+
+
+//奇偶换行
+.row1 {background:#fff;}
+.row2 {background:#F7F8FA;}
+.row3 {background:#FFFF99;}
+.form3 {border:1px solid #f00;}
+.button_2on {font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	background:url(../img/button_2on.gif);
+	height: 22px;
+	width: 53px;
+	border: none;
+	padding: 0;}
+.button_4on {font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: hand;
+	background-position: left;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px 5px 0 0;
+	background-image: url(../img/button_4on.gif);
+	height: 20px;
+	width: 71px;
+	border: none;
+	padding: 0;}
+
+.showinfotb_bg {background:#6594C0;}
+.border2 {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #7492B1;
+	float: none;
+	line-height: 12px;
+}
+.question {
+	width: 22px;
+	cursor: hand;
+	height: 21px;
+	border: 1px solid #999999;
+	background: url(../img/help.png) no-repeat center bottom #FFFFFF;
+}
+.menu_hidden{
+	display:block; 
+	width:140px; 
+	height:25px; 
+	line-height:25px; 
+	text-align:center; 
+	float:left; 
+	background:url(../img/message-tag.gif) no-repeat 0 -30px; 
+	cursor:pointer;
+}
+.menu_display{
+	display:block; 
+	width:140px; 
+	height:25px; 
+	line-height:25px; 
+	text-align:center; 
+	float:left; 
+	background:url(../img/message-tag.gif) no-repeat; 
+	cursor:pointer;
+}
+
+
+.pageGoBtn {
+		cursor: hand;
+		background: url(images/page-go.jpg) !important;
+		height:20px;
+		width:20px;
+		border:0px;
+		margin-top:1px;
+}
+.pageFirstBtn{
+		cursor: hand;
+		BACKGROUND-IMAGE: url(images/page-first.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pagePrevBtn{
+		cursor: hand;
+		background: url(images/page-prev.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pageNextBtn{
+		cursor: hand;
+		background: url(images/page-next.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pageLastBtn{
+		cursor: hand;
+		background: url(images/page-last.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pageFirstBtn_disabled{
+		background: url(images/page-first-disabled.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pagePrevBtn_disabled{
+		background: url(images/page-prev-disabled.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pageNextBtn_disabled{
+		background: url(images/page-next-disabled.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.pageLastBtn_disabled{
+		background: url(images/page-last-disabled.gif) !important;
+		height:16px;
+		width:16px;
+		border:0px;
+}
+.inputTxt{
+		background-color:#fff3bc;
+		border:1px #999999 solid;
+		color:#003399;
+		vertical-align:middle;
+	}
+div.listmain{
+	height:25px;
+	cursor:pointer;
+	line-height: 25px;
+}

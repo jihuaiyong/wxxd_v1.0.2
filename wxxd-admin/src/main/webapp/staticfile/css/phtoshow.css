@@ -1,0 +1,170 @@
+@charset "utf-8";
+body{font:12px;}
+*{padding:0px;margin:0px;list-style:none;}
+em{font-style:normal;}
+
+.L_slide .closearea, .L_alpha .closearea {
+	position:absolute;
+	right:0;
+	top:5px;
+	cursor:pointer;
+	padding:10px 8px;
+}
+.L_alpha .closearea {
+	top:0;
+}
+.L_slide .topMenu {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:48px;
+}
+.L_slide .topMenu .alpha {
+	width:100%;
+	height:48px;
+	filter:alpha(opacity=50);
+	opacity:.5;
+}
+.L_slide .topMenu .content {
+	position:absolute;
+	height:48px;
+	top:0;
+	left:0;
+	width:100%;
+}
+.L_slide .topMenu .user {
+	float:left;
+}
+.L_slide .topMenu .share {
+	float:right;
+	margin:14px 50px 0 0;
+	_display:inline;
+}
+.L_slide .user {
+	margin:5px 0 0 10px;
+}
+.L_slide .user .m_thumb_c {
+	float:left;
+}
+.L_slide .user .name {
+	display:inline-block;
+	padding:5px 0 0 3px;
+}
+.L_slide .M_pages_a {
+	padding-top:14px;
+	position:absolute;
+	left:50%;
+	margin-left:-20px;
+}
+.M_pages_a a, .M_pages_a .count {
+	color:red;
+	font-weight:bold;
+}
+.L_slide .M_pages_a .count em {
+	margin:0 1px;
+}
+
+.L_slide .share .M_ico {
+	margin:0;
+}
+.L_slide .M_linke:hover {
+	text-decoration:none;
+}
+.L_slide .pic {
+	margin:0 auto;
+	text-align:center;
+	background:url(../images/loading.gif) center center no-repeat;
+}
+.console {
+	height:90px;
+	width:916px;
+	margin-left:-458px;
+	left:50%;
+	position:absolute;
+	bottom:10px;
+	z-index:10002;
+}
+
+.picLists {
+	width:690px;
+	overflow:hidden;
+	zoom:1;
+	margin:0 auto;
+}
+.picLists ul {
+	padding:12px 0;
+}
+.picLists li {
+	margin:0 12px 0 0;
+	float:left;
+}
+.picLists ul img {
+	vertical-align:bottom;
+	border:3px solid #888;
+	border:3px solid rgba(255, 255, 255, .2);
+	cursor:pointer;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+}
+.picLists li.current img {
+	cursor:default;
+	border:3px solid red;
+}
+.console .prev,.console .next,.console .prev_f,.console .next_f {
+	background:url(../images/ly_slide.png) no-repeat 0 0;
+	display:inline-block;
+	width:30px;
+	height:60px;
+	vertical-align:middle;
+}
+.console .prev {
+	background-position:0 -176px;
+	margin:0 0 0 20px;
+	cursor:pointer;
+}
+.console .next {
+	background-position:0 -237px;
+	margin:0 20px 0 0;
+	cursor:pointer;
+}
+ .console .prev_f {
+	background-position:0 -342px;
+	margin:0 0 0 20px;
+}
+.console .next_f {
+	background-position:0 -403px;
+	margin:0 20px 0 0;
+}
+.play_prev {
+	float:left;
+	margin:14px 0 0 0;}
+.defl_next {
+	float:right;
+	margin:14px 0 0 0;
+}
+.L_alpha {
+	position:absolute;
+}
+.console .alpha{
+	filter:alpha(opacity=30);
+	opacity:0.3;
+	background:#000;
+	position:absolute;
+	top:0;
+	left:50px;
+	height: 90px;
+	width: 816px;
+}
+
+.M_ico {
+    background: url("../images/icon.png") no-repeat scroll -67px -1286px transparent;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+	height: 20px;
+    width: 20px;
+}
+.name{color:#ccc;}

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.sign{padding: 10px;}
+.sign .sign-bt{height: 30px;line-height: 30px;font-size: 20px;position: relative;overflow:hidden;color:#6697C6;font-weight: 700;}
+.sign .sign-bt .sign-btns{position: absolute;right:0;top:0;height: 30px;}
+.sign .sign-bt .sign-btns a{padding: 0 10px;line-height: 30px;height:30px;background-color: #6697C6;color:#fff;font-weight: 400;font-size: 12px;display:inline-block;text-decoration: none;}
+
+
+.sign .sign-add-bt{position:relative;margin-top: 15px; height: 34px;line-height: 34px;background-color: #6697C6;padding-left: 10px;    font-size: 16px;color: #fff; font-weight: 400;}
+.sign table{ font-size:12px;border-spacing: 0;    width: 100%;border-collapse: collapse;border-color: grey;margin-top: 10px;}
+.sign table th {font-size:14px;width:200px;padding: 0 5px;line-height: 36px;background: #f8fcfc;text-align: right;font-weight: 400;border: 1px solid #EEE;}
+.sign table .redth{color:#ff0000;}
+.sign table  td {padding: 0 5px;border: 1px solid #EEE;box-sizing: border-box;}
+.sign .normal-input {width: 95%;height: 30px;line-height: 30px;padding: 6px 5px;border: 1px solid #ddd;}
+.sign  .sign-select-a{padding: 0 10px;line-height: 30px;height:30px;background-color: #6697C6;color:#fff;display: inline-block;text-decoration: none;font-size: 12px;}
+
+
+.sign .results-infor table  td,
+.sign .select-result table  td{line-height: 36px;text-align: center;}
+.sign  .sign-btns{position: absolute;right:7px;top:7px;height: 20px;}
+.sign .sign-del-a,
+.sign .sign-add-a{padding: 0 10px;background-color: #fff;color:#6697C6;height: 20px;line-height: 20px;display: block;text-decoration: none;font-size: 12px;}

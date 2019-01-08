@@ -1,0 +1,16 @@
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\dao\CommonDao.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\service\QueryOrderInfoByStoreManagerIdService.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\dao\StoreeManagerInfoDao.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\service\QueryStoreCmmdtyService.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\dto\CmmdtyInfoDto.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\entity\OrderInfo.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\commom\dto\Page.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\entity\StoreManagerInfo.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\entity\StoreShopperInfo.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\entity\ManagerInfo.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\service\QueryCmmdtyInfoService.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\entity\CmmdtyInfo.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\entity\CustomerInfo.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\dto\OrderInfoDto.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\dao\CmmdtyInfoDao.java
+E:\wxxd\wxxd_V1.0.2\wxxd-intf\src\main\java\com\jhy\wxxd\intf\service\QueryOrderInfoByCustomerIdService.java

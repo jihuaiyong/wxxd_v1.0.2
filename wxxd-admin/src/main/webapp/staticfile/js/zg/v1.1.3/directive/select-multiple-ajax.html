@@ -1,0 +1,41 @@
+<div class="select-multiple-ajax" ng-click="$event.stopPropagation()">
+    <i class="icon-caret-down" ng-click="pop.toggle()"></i>
+    <input type="text" class="preview zg-form-control" ng-focus="pop.show()" value="{{word_preview}}">
+    <article class="innerPop {{pop.opens}}" ng-show="pop.isShow" style="width: {{pop.widthH}}px">
+        <div class="leftItem">
+            <div class="inpBox">
+                <input type="text" class="zg-form-control" placeholder="请输入关键字" ng-change="search.change()" ng-model="search.str">
+                <i class="icon-search"></i>
+            </div>
+            <div class="spareTires" ng-class="{'loading': search.loading}">
+                <ul>
+                    <li ng-repeat="option in data.aOptions track by $index">
+                        <label title="{{option.name}}">
+                            <input type="checkbox" ng-model="option.checked" value="{{option.value}}" ng-change="optionChange(option)"> {{option.name}}
+                        </label>
+                    </li>
+                </ul>
+                <div class="loading">
+                    <img src="data:image/gif;base64,R0lGODlhEAAQAMQQAObm5uLi4unp6dHR0cnJydfX1+jo6O/v7/Dw8NPT0/39/crKyvr6+uDg4MfHx////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAQACwAAAAAEAAQAAAFXeAjPkiTjGgaLI6Tvs9BtPAIMPH8KgK5DDhZSlFYlFrAGIrYMrUcyRGzdapZr6jE02FAyZ6JxrOrEAVnjgaCRS6IkjLjo9F2PaDBwLJAu+NfAix2LQsAMCVVYQgoIQAh+QQFAAAQACwJAAAABwAHAAAFFGDSIE/5OM7SmKhjsK55vjIt32UIACH5BAUAABAALAoAAwAGAAoAAAUaICQqgggpxYKcheM0qOskZm0/eA7luMibvRAAIfkEBQAAEAAsCQAJAAcABwAABRXgcxBOmTwi6TRouiAoIwbtI9d4/oQAIfkEBQAAEAAsAwAKAAoABgAABRsgJI7MKD6POJQnKjpD60IODKFzvQD3nDQISAgAIfkEBQAAEAAsAAAJAAcABwAABRPgI45kSSrFWTgj6rCisLwk0iQhACH5BAUAABAALAAAAwAHAAoAAAUcIPRAJPmco4mm61m+cJk4tGNATX0ryGK/jVspBAAh+QQFAAAQACwAAAAABwAHAAAFFOAjjmRpPgBDIsugio3juGIiz2oIADs=" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="rightItem">
+            <a href="javascript:;" class="button button-link btn-clear" ng-click="clear()">清空</a>
+            <label>已选择：<small>({{data.aSelected.length}})</small></label>
+            <div class="spareTires-checked">
+                <ul>
+                    <li ng-repeat="option in data.aSelected track by $index" title="{{option.name}}">
+                        <i class="icon-cross" title="删除" ng-click="dele(option)"></i>
+                        <span>{{option.name}}</span>
+                    </li>
+                </ul>
+                <p class="empty" ng-show="data.aSelected.length == 0">默认全部</p>
+            </div>
+            <div class="btnBox">
+                <a href="javascript:;" class="button button-primary" ng-click="btn.sure()">确定</a>
+                <a href="javascript:;" class="button button-default" ng-click="btn.cancel()">取消</a>
+            </div>
+        </div>
+    </article>
+</div>

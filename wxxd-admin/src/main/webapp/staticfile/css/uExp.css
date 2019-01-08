@@ -1,0 +1,88 @@
+/*用户体验计划*/
+.bgcolor{background-color:#F5F5F5;}
+.userPlan{width:670px;margin:0 auto;overflow:hidden;color:#333;font-family:"宋体";}
+.userPlan h1{font-size:24px;font-family:"微软雅黑";height:60px;text-align:center;line-height:60px;font-weight:normal;}
+.userPlan h4,.userPlan .topPart p{font-size:14px;line-height:20px;height:20px;}
+.topPart{width:670px;height:65px;overflow:hidden;border-bottom:#dad8d8 solid 1px;padding:15px 0;}
+.topPart p i{color:#3366cc;font-family:Arial;font-size:14px;font-weight:700;}
+.topPart .sele{margin-top:5px;line-height:20px;}
+.topPart .sele strong{font-size:14px;}
+.h95{width:670px;height:55px;padding:20px 0 20px;border-bottom:#dad8d8 solid 1px;overflow:hidden;}
+.h95 h4 span{color:red;font-size:12px;float:left;margin-right:5px;font-weight:normal;}
+.h95 .radioGroup{width:670px;height:25px;margin-top:10px;}
+.h95 .radioGroup input{width:20px;vertical-align:middle;}
+.h175{height:125px;padding:25px 0;border-bottom:#dad8d8 solid 1px;}
+.h175 textarea{width:655px;height:75px;margin-top:5px;padding:5px;resize:none;border:#abadb3 solid 1px;}
+.h175 .words{text-align:right;}
+.h207{padding:25px 0;border-bottom:#dad8d8 solid 1px;}
+.h207 p{line-height:20px;}
+.h207 button{width:71px;height:24px;margin-top:10px;background:url(images/userPlan.png) no-repeat 0 0;text-align:center;border:medium none;cursor:pointer;}
+.h207 .dele{width:670px;margin-top:10px;}
+.h207 .dele td{padding:0 20px;border:#abadb3 solid 1px;}
+.h207 .dele .pic{color:#333;text-decoration:underline;}
+.h207 .form{width:425px;height:125px;margin-top:10px;}
+.h207 .uiFile{cursor:pointer;display:inline-block;line-height:24px;position:relative;width:60px;background:url(images/userPlan.png) no-repeat 0 0;color:#333;padding-left:10px;}
+.h207 .uiFile input{cursor:pointer;opacity:0;position:absolute;right:0;width:74px;z-index:999;}
+.form dl{margin-bottom:5px;clear:both;}
+.form dl dt{float:left;margin-top:7px;}
+.form dd{float:left;margin-bottom:16px;}
+.form .phone{width:220px;height:22px;line-height:26px;padding:2px;border:#cacaca solid 1px;}
+.form .mail{width:108px;height:26px;border:#cacaca solid 1px;font-size:14px;}
+.form span{font-family:Arial;margin-left:5px;}
+
+* 20140109　新增考试　12030539 */
+.new-exam .newExam-tip{margin-bottom:10px;height:16px;overflow:hidden;}
+.new-exam .newExam-tip em{float:left;width:16px;height:16px;background:url(images/tipsBg1.png) no-repeat -155px -70px;overflow:hidden;}
+.new-exam .newExam-tip span{float:left;padding-left:10px;width:964px;color:#333;line-height:16px;}
+.new-exam .newExam-intro{margin-bottom:10px;padding:5px 25px;width:938px;background:#FEFFF1;border:1px solid #FC6;color:#333;line-height:22px;}
+.new-exam .newExam-intro dt{font-weight:700;}
+.new-exam .newExam-intro dd{width:938px;overflow:hidden;}
+.new-exam .newExam-intro dd i{float:left;width:18px;overflow:hidden;}
+.new-exam .newExam-intro dd p{float:right;width:920px;}
+.new-exam .newExam-intro ul{padding-left:10px;}
+.new-exam .newExam-con h3{padding-top:13px;border:solid #E7E5E5;border-width:1px 1px 0;font:700 22px/34px 'Microsoft YaHei';color:#333;text-align:center;}
+.new-exam .newExam-con h4{padding-bottom:9px;border:solid #E7E5E5;border-width:0 1px;font:400 12px/24px 'Microsoft YaHei';color:#333;text-align:center;}
+.new-exam .newExam-con dl{border-bottom:1px solid #E7E5E5;overflow:hidden;}
+.new-exam .newExam-con dt{padding:8px 18px 6px;border:solid #E7E5E5;border-width:0 1px;font-weight:700;line-height:26px;color:#333;}
+.new-exam .newExam-con dd{position:relative;margin-top:-1px;padding:0 18px 7px;width:952px;border:1px solid;border-color:#FFF  #E7E5E5;line-height:26px;color:#333;overflow:hidden;z-index:1;}
+.new-exam .newExam-con .err{background:#FFF0F0;border-color:#F55;z-index:2;}
+.new-exam .newExam-con dd i{float:left;width:18px;}
+.new-exam .newExam-con dd p,
+.new-exam .newExam-con dd ul{float:right;width:934px;}
+.new-exam .newExam-con dd li{height:26px;line-height:26px;vertical-align:top;}
+.new-exam .newExam-con label input{margin-right:10px;width:13px;height:13px;vertical-align:-2px;*vertical-align:1px;}
+.new-exam .newExam-con .answer{position:absolute;bottom:0;right:0;width:166px;height:36px;background:#FFF0F0;line-height:36px;font-size:16px;font-weight:700;color:#F55;}
+.new-exam .newExam-submit{padding:10px 0 50px;height:30px;overflow:hidden;}
+.new-exam .newExam-submit a{float:left;margin-right:20px;width:105px;height:30px;background:url(images/newExam-bg.png) no-repeat;font:700 16px/30px 'Microsoft YaHei';color:#333;overflow:hidden;}
+.new-exam .newExam-submit .submit-btn{background-position:0 0;text-indent:-100%;}
+.new-exam .newExam-submit .submit-btn:hover{background-position:-105px 0;}
+.new-exam .newExam-submit .reset-btn{background-position:-210px 0;text-align:center;}
+.new-exam .newExam-submit .reset-btn:hover{background-position:-315px 0;text-decoration:none;}
+.newExam-pop{display:none;position:absolute;width:609px;height:280px;background:url(images/newExam-bg.png) no-repeat;overflow:hidden;z-index:9999;}
+.newExam-pop01{background-position:0 -30px;}
+.newExam-pop02{background-position:0 -310px;}
+.newExam-pop03{background-position:0 -590px;}
+.newExam-pop01 em{position:absolute;top:104px;left:379px;display:block;width:20px;height:30px;font:700 20px/30px Arial;color:#416EB8;text-align:center;}
+.newExam-pop02 em{position:absolute;top:100px;left:433px;display:block;width:20px;height:30px;font:700 20px/30px Arial;color:#416EB8;text-align:center;}
+.newExam-pop03 em{position:absolute;top:67px;left:449px;display:block;width:50px;height:40px;font:700 30px/40px Arial;color:#F70;text-align:center;}
+.newExam-pop01 .close-btn{position:absolute;top:15px;right:10px;display:block;width:30px;height:30px;overflow:hidden;}
+.newExam-pop02 .close-btn{position:absolute;top:23px;right:10px;display:block;width:30px;height:30px;overflow:hidden;}
+.newExam-pop03 .close-btn{position:absolute;top:15px;right:10px;display:block;width:30px;height:30px;overflow:hidden;}
+.newExam-pop .submit-btn{position:absolute;top:210px;left:266px;display:block;width:120px;height:50px;text-indent:-100%;overflow:hidden;}
+.newExam-pop .reset-btn{position:absolute;top:210px;left:406px;display:block;width:120px;height:50px;text-indent:-100%;overflow:hidden;}
+.newExam-pop .show-btn{position:absolute;top:216px;left:295px;display:block;width:120px;height:50px;text-indent:-100%;overflow:hidden;}
+.newExam-pop .learn-btn{position:absolute;top:216px;left:423px;display:block;width:120px;height:50px;text-indent:-100%;overflow:hidden;}
+.newExam-pop .start-btn{position:absolute;top:210px;left:362px;display:block;width:130px;height:40px;text-indent:-100%;overflow:hidden;}
+.side-time{display:none;position:absolute;top:388px;padding-left:40px;width:80px;height:30px;background:url(images/newExam-bg.png) no-repeat -579px 0;font:700 18px/36px Arial;color:#FFA800;overflow:hidden;}
+.side-errList{position:absolute;top:388px;width:117px;overflow:hidden;}
+.side-errList .list-box{width:115px;background:#FFF;border:1px solid #FFB80C;overflow:hidden;}
+.side-errList .list-box ul{margin-bottom:-1px;width:120px;overflow:hidden;}
+.side-errList .list-box li{float:left;margin:-1px 0 0 -1px;width:28px;height:17px;border:1px solid #E7E5E5;}
+.side-errList .list-box .err{background:#F55;}
+.side-errList .list-box li a{display:block;width:28px;height:17px;line-height:18px;color:#333;text-align:center;}
+.side-errList .list-box li a:hover{color:#F70;text-decoration:underline;}
+.side-errList .list-box .err a{color:#FFF;}
+.side-errList .list-box .err a:hover{color:#FFF;text-decoration:underline;}
+.side-errList .err-color{margin-top:10px;height:20px;overflow:hidden;}
+.side-errList .err-color em{float:left;width:30px;height:20px;background:#F55;overflow:hidden;}
+.side-errList .err-color span{float:left;padding-left:10px;line-height:20px;color:#333;}

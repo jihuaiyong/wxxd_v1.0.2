@@ -1,0 +1,153 @@
+/*请假类型 弹出对话框*/
+.leave-style{margin: 200px auto;width: 480px;padding-bottom: 20px;border: 1px solid #6697C6;background-color: #FFFFFF}
+.leave-title{height: 40px;line-height: 40px;text-align: center;font-size: 14px;}
+.leave-selected{border-top: 1px dashed #6697C6;border-bottom: 1px dashed #6697C6;padding: 80px 130px;}
+.leave-bts{margin-left: 140px;margin-top: 10px;}
+.leave-bts a{display: inline-block;margin-right: 20px;width: 78px;height: 28px;line-height: 28px;text-align: center;
+    border: 1px solid #6697C6;font-size: 14px;}
+
+
+/*请等待*/
+.wait-dialog{width: 200px;border: 1px solid #6697C6;background-color: #f7f7f7;text-align: center;}
+.please-wait{height: 20px;font-size: 14px;font-weight: bold;}
+.date-transfer{margin:10px auto ;width: 180px;height: 20px;border: 1px solid #6697C6;text-align: left; }
+.date-transfer p{display: inline-block;width: 60px;height: 20px;background-color: #6697C6; }
+
+/*请假申请单*/
+.pt20 {
+    padding-top: 4px !important;
+}
+
+.warning{margin-bottom: 10px;color: red;}
+.table-wrap{padding-bottom: 10px;}
+.layout-table th{text-align: left;}
+
+/*请假条件*/
+.leave-condition{margin-left: 20px;margin-top: 10px;}
+
+/*.申请提示*/
+.loading-flash{color: red;}
+.loading-flash:hover{text-decoration: underline;}
+.loading-ul{list-style-type: disc;margin-left: 15px;margin-bottom: 10px;}
+
+/*请假日期前后三十天的缺勤记录 和 前后两天的班次*/
+/*缺勤记录*/
+.absence-record tr th{width: 10%;text-align: center;}
+.absence-record tr td{width: 10%;text-align: center;}
+/*前后两天的班次*/
+.work-shift tr th{width: 20%;text-align: center;}
+.no-record{color: red;text-align: center;}
+
+/*上级审批对话框*/
+.approve-dialog{margin-left: 10px;margin-top: 10px;width: 600px;/*border: 1px solid #6697C6;*/}
+.approve-title{padding-left: 10px;font-size: 14px;height: 35px;line-height: 35px;
+    border-bottom: 1px dashed #6697C6;font-weight: bold;}
+.leader-title input{float: left;margin: 10px;}
+.leader-title label{float: left;margin-top: 7px;}
+.approve-info{border: 1px solid #6697C6;}
+.approve-info p{padding-left: 10px;height: 40px;line-height: 40px;background-color: #f7f7f7;color: #6697C6;font-size: 14px}
+.approve-table{height: 100px;text-align: center;}
+.approve-table tr th{width: 300px;height: 30px;text-align: center;}
+.approve-table tr td{width: 300px;height: 30px;text-align: center;}
+.approve-bts{ width: 200px;margin: 20px auto;}
+.approve-bts a{margin-right: 10px;display: inline-block;width: 78px;height: 28px;line-height: 28px;
+    border: 1px solid #6697C6;text-align: center;background-color: #f7f7f7;}
+/*审批意见*/
+
+.approval-opinion .layout-table th{width: 20%;text-align: center;}
+.approval-opinion .layout-table td{width: 20%;text-align: center;}
+/*1-4审批成功页面*/
+.success-01{padding: 40px 0 60px 160px;border-top: 1px dashed #6697C6;border-bottom: 1px dashed #6697C6;}
+.success-01 span{float: left;display: inline-block;padding:0  5px;font-size: 16px;}
+.success-01 img{float: left;}
+.success-01 .lion{margin-top: -40px}
+.approval-success{padding-top: 5px;}
+.approval-success .lose-infor{margin-top: 5px;text-align: center;line-height:20px;padding:0 10px;overflow:hidden;word-wrap:break-word ;}
+.approval-success p{margin-top: 5px;text-align: center;}
+.approval-success .success-infor{padding:0 5px;}
+.close-bt{margin-left: 190px;margin-top: 20px;display: inline-block;width: 78px;height: 28px;line-height: 28px;
+    border: 1px solid #6697C6;text-align: center;background-color: #f7f7f7;cursor: pointer;}
+
+.layui-layer-btn .layui-layer-btn0 {
+    border-color: #ddd;
+    background-color: #6697c6;
+    color: #fff;
+}
+.layui-layer-btn a {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 10px;
+    padding: 0 15px;
+    border: 0px solid #6697C6;
+    background-color: #6697c6;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*调班申请*/
+/*两天班对调和单天班对调*/
+.two-swap{position: absolute;right: 100px;width: 60px; height: 34px;line-height: 34px;cursor: pointer;color: #fff;}
+.one-swap{position: absolute;right: 10px;width: 60px; height: 34px;line-height: 34px;cursor: pointer;color: #fff;}
+.swap-record01,.swap-record02{display: none;margin-bottom: 10px;border: 1px dashed #6697C6;color: red;
+     height: 20px;line-height: 20px;text-align: center;}
+
+/*查询班次*/
+.layout-table .find-shift-input{width: 185px;}
+.find-shift-bt{display: inline-block;width: 55px;height: 25px;line-height: 25px;text-align: center;
+    background-color: #6697C6;color: #FFFFFF}
+
+/*班次选择对话框*/
+.shift-dialog{margin: 10px;width: 700px;border: 1px solid #6697C6;}
+.shift-title{margin-bottom: 5px;height: 40px;line-height: 40px;text-align: center;font-size: 14px;
+    background-color: #6697C6;color: #FFFFFF;}
+.shift-dialog input[type=text]{height: 14px;}
+.shift-dialog table tr{height: 25px;}
+.shift-table-one tr td{width: 80px;}
+.shift-table-one td:first-child span{display: inline-block;margin-right:10px;width: 80px;height: 20px;line-height: 20px;
+    background-color: #6697C6;color: #FFFFFF;}
+.find-bt{display: inline-block;width: 50px;height: 20px;line-height: 20px;background-color: #6697c6;
+    color: #FFFFFF;text-align: center;border-radius: 2px;}
+.shift-table-two{width: 700px;border-top:1px solid #6697c6;border-bottom:1px solid #6697c6; }
+.shift-table-two th{width: 116px;text-align: left;}
+.shift-table-two td{padding-left: 4px;width: 112px;text-align: left;}
+.sure-delete-bts{margin: 10px auto;width: 130px;}
+.sure-bt{margin-right: 20px}
+
+/*3-1*/
+.layout-table .apply-overwork{margin-right: 10px;width: 556px;}
+.layout-table select{width: 80px;padding-left: 10px;border: 1px solid #ddd;}
+
+/*新增汽车明细*/
+.car-detail{width: 100%;margin-bottom: 2px;}
+.car-detail tr th{text-align: left; padding: 0 5px;
+    line-height: 36px;
+    background: #f8fcfc;
+    font-weight: 400;
+    border: 1px solid #EEE;}
+.car-number{display: inline-block;margin-left: 5px;vertical-align: 2px;}
+
+/*导入div*/
+.leading-div{display: none;position: relative;margin-top: 5px;height: 35px;padding-top: 5px;
+    background-color: #f8fcfc;border: 1px solid #ddd;color: #FFFFFF;}
+.leading-div span{float:left;margin-top: 5px;margin-left:10px;color: #333;font-size: 16px;}
+.leading-div input[type=text]{float: left;margin-right: 10px;
+    width: 300px;height: 30px;line-height: 30px;border: 1px solid #ddd;}
+/*浏览*/
+.div-22 { float: left;margin-right: 10px;position: relative;display: inline-block;width: 60px; height: 30px;
+    border: 1px solid #dddddd; }
+.div-22 a { display: inline-block; width: 60px; height: 30px; line-height: 30px; text-align: center;
+    cursor: pointer; text-decoration: none;}
+.div-22 .input-file{
+    padding-left: 0;  width: 60px; height: 30px;cursor: pointer; outline: medium none;
+    position: absolute; left: 0; top: 0;
+    filter: alpha(opacity=0); -moz-opacity: 0;  opacity: 0;}
+.leading-sure{float: left;}
+.loading-model{display: inline-block;margin-right: 10px;margin-top:5px;font-size: 16px;}
+.loading-model:hover{text-decoration: underline;}
+
+/*5-1*/
+.approve-process tr th{width:14.28%; }
+.approve-process .last-approve{color: red;}
